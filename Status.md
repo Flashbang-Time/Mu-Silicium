@@ -882,14 +882,14 @@
 | Feature              | Description                | State |
 |:--------------------|:--------------------------|:----:|
 | Display              |                            | ✅     |
-| Internal Storage     | Partitions enumerated      | ⚠️    |
-| Side Buttons         | Not fully validated        | ❔     |
+| Internal Storage     |                            | ✅    |
+| Side Buttons         | Not fully validated        | ❌     |
 | USB Host Mode        | Unverified in UEFI         | ❔     |
-| USB Device Mode      |                            | ❔     |
-| USB Power Delivery   | OTG power observed only    | ❔     |
-| Mass Storage         |                            | ❔     |
+| USB Device Mode      |                            | ❌     |
+| USB Power Delivery   | OTG power observed only    | ❌     |
+| Mass Storage         |                            | ❌     |
 | Windows Boot         | WinPE with guarded AMU fix | ✅     |
-| Linux Boot           |                            | ❔     |
+| Linux Boot           |                            | ❌    |
 
 <table>
 <tr><th>Windows</th></tr>
