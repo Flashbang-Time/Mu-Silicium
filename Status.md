@@ -907,34 +907,34 @@
 | Feature              | Description                     | State |
 |:--------------------|:-------------------------------|:----:|
 | Internal Storage     | 1 TB UFS detected; I/O unverified | ❔     |
-| Side Buttons         |                                 | ❔     |
-| Proximity Sensor     |                                 | ❔     |
-| Light Sensor         |                                 | ❔     |
-| Accelerometer Sensor |                                 | ❔     |
-| Compass Sensor       |                                 | ❔     |
-| Gyroscope Sensor     |                                 | ❔     |
-| Fingerprint Sensor   |                                 | ❔     |
-| NFC Sensor           |                                 | ❔     |
-| Temperature Sensor   |                                 | ❔     |
-| Battery              |                                 | ❔     |
+| Side Buttons         |                                 | ❌     |
+| Proximity Sensor     |                                 | ❌     |
+| Light Sensor         |                                 | ❌     |
+| Accelerometer Sensor |                                 | ❌     |
+| Compass Sensor       |                                 | ❌     |
+| Gyroscope Sensor     |                                 | ❌     |
+| Fingerprint Sensor   |                                 | ❌     |
+| NFC Sensor           |                                 | ❌     |
+| Temperature Sensor   |                                 | ❌     |
+| Battery              |                                 | ❌     |
 | USB Host Mode        | Controller / hub errors         | ❌     |
-| USB Device Mode      |                                 | ❔     |
-| USB Power Delivery   | OTG power alone is insufficient | ❔     |
-| Charging             |                                 | ❔     |
-| WLAN                 |                                 | ❔     |
+| USB Device Mode      |                                 | ❌     |
+| USB Power Delivery   | OTG power alone is insufficient | ❌     |
+| Charging             |                                 | ❌     |
+| WLAN                 |                                 | ❌     |
 | CPU                  | PE boots; SMP unverified        | ⚠️    |
-| Touchscreen          | Code 52; test-signing pending   | ❌     |
-| Bluetooth            |                                 | ❔     |
-| GPS                  |                                 | ❔     |
-| Speakers             |                                 | ❔     |
-| Microphone           |                                 | ❔     |
-| GPU                  | Acceleration unverified         | ❔     |
-| Camera               |                                 | ❔     |
-| Flashlight           |                                 | ❔     |
-| Mobile Data          |                                 | ❔     |
+| Touchscreen          | Code 52; test-signing pending   | ❔     |
+| Bluetooth            |                                 | ❌     |
+| GPS                  |                                 | ❌     |
+| Speakers             |                                 | ❌     |
+| Microphone           |                                 | ❌     |
+| GPU                  | Acceleration unverified         | ❌     |
+| Camera               |                                 | ❌     |
+| Flashlight           |                                 | ❌     |
+| Mobile Data          |                                 | ❌     |
 | Display              | Only framebuffer                | ⚠️    |
-| Vibration            |                                 | ❔     |
-| Fan                  |                                 | ❔     |
+| Vibration            |                                 | ❌     |
+| Fan                  | Fan turns on by default in UEFI | ❔     |
 
 </td></tr>
 </table>
