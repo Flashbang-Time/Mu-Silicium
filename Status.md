@@ -906,7 +906,7 @@
 
 | Feature              | Description                     | State |
 |:--------------------|:-------------------------------|:----:|
-| Internal Storage     | Not established in Windows      | ❔     |
+| Internal Storage     | 1 TB UFS detected; I/O unverified | ❔     |
 | Side Buttons         |                                 | ❔     |
 | Proximity Sensor     |                                 | ❔     |
 | Light Sensor         |                                 | ❔     |
@@ -934,6 +934,7 @@
 | Mobile Data          |                                 | ❔     |
 | Display              | Only framebuffer                | ⚠️    |
 | Vibration            |                                 | ❔     |
+| Fan                  |                                 | ❔     |
 
 </td></tr>
 </table>
