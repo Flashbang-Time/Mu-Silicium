@@ -8,7 +8,7 @@ This Project focuses on Making ARM-Based Devices Boot Operating Systems like Win
 
 ## NX809J in this fork
 
-[RedMagic 11 Pro / NX809J](Platforms/ZTE/nx809jPkg/README.md): experimental Windows ARM64 bring-up. WinPE has reached a command prompt on hardware; touch, USB and other peripherals are still being developed. [Touch driver source](https://github.com/Flashbang-Time/nx809j-touch-driver).
+[RedMagic 11 Pro / NX809J](Platforms/ZTE/nx809jPkg/README.md): touch, USB and other peripherals are still being developed. [Touch driver source](https://github.com/Flashbang-Time/nx809j-touch-driver).
 
 ## Resources
 
