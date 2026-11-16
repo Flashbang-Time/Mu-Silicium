@@ -872,7 +872,7 @@
 
 ## RedMagic 11 Pro
 
-<img align="right" src="Resources/Pictures/OnePlus-15R.png" width="400" alt="Preview">
+<img align="right" src="Resources/Pictures/Redmagic-11-Pro.png" width="400" alt="Preview">
 
 **State:** Experimental <br>
 **Codename:** nx809j
