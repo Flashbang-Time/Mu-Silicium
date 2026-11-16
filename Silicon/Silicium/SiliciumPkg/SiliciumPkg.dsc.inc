@@ -467,11 +467,22 @@
   #
   # BDS
   #
+!ifdef SKIP_KERNEL_ERRATA_PATCHER
+  MdeModulePkg/Universal/BdsDxe/BdsDxe.inf
+!else
   MdeModulePkg/Universal/BdsDxe/BdsDxe.inf {
     <LibraryClasses>
       NULL|SiliciumPkg/Library/KernelErrataPatcherLib/KernelErrataPatcherLib.inf
   }
+!endif
+!ifdef NX809J_DIRECT_WINPE
+  PcBdsPkg/MsBootPolicy/MsBootPolicy.inf {
+    <BuildOptions>
+      *_*_*_CC_FLAGS = -DNX809J_DIRECT_WINPE
+  }
+!else
   PcBdsPkg/MsBootPolicy/MsBootPolicy.inf
+!endif
   MdeModulePkg/Universal/PrintDxe/PrintDxe.inf
   MdeModulePkg/Universal/SetupBrowserDxe/SetupBrowserDxe.inf
   MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe.inf

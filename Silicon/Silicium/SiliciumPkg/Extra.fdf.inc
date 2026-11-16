@@ -23,7 +23,11 @@
 !endif
 
   FILE FREEFORM = PCD (gOemPkgTokenSpaceGuid.PcdLogoFile) {
+!ifdef $(PLATFORM_BOOT_LOGO_BMP)
+    SECTION RAW = $(PLATFORM_BOOT_LOGO_BMP)
+!else
     SECTION RAW = SiliciumPkg/Include/Resources/BootLogo.bmp
+!endif
     SECTION UI = "BootLogo.bmp"
   }
 

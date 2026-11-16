@@ -1,0 +1,125 @@
+diff --git a/PcBdsPkg/MsBootPolicy/MsBootPolicy.c b/PcBdsPkg/MsBootPolicy/MsBootPolicy.c
+index 25ac988f..a85f950a 100644
+--- a/PcBdsPkg/MsBootPolicy/MsBootPolicy.c
++++ b/PcBdsPkg/MsBootPolicy/MsBootPolicy.c
+@@ -98,6 +98,107 @@ FilterNoUSB (
+   return (FALSE == IsDevicePathUSB (DevicePath));
+ }
+ 
++#ifdef NX809J_DIRECT_WINPE
++STATIC
++BOOLEAN
++NxHasWinPeFile (
++  IN EFI_FILE_PROTOCOL  *Root,
++  IN CHAR16             *Name,
++  IN UINT64             ExpectedSize
++  )
++{
++  EFI_FILE_PROTOCOL  *File;
++  EFI_STATUS         Status;
++  UINT64             Size;
++
++  Status = Root->Open (Root, &File, Name, EFI_FILE_MODE_READ, 0);
++  if (EFI_ERROR (Status)) {
++    return FALSE;
++  }
++  Status = File->SetPosition (File, MAX_UINT64);
++  if (!EFI_ERROR (Status)) {
++    Status = File->GetPosition (File, &Size);
++  }
++  File->Close (File);
++  return !EFI_ERROR (Status) && Size == ExpectedSize;
++}
++
++STATIC
++EFI_STATUS
++NxBootWinPeVolume (VOID)
++{
++  STATIC CHAR16                    Loader[] = L"\\EFI\\Boot\\bootaa64.efi";
++  EFI_STATUS                       Status;
++  EFI_HANDLE                       *Handles;
++  EFI_HANDLE                       Target;
++  EFI_SIMPLE_FILE_SYSTEM_PROTOCOL  *FileSystem;
++  EFI_FILE_PROTOCOL                *Root;
++  EFI_DEVICE_PATH_PROTOCOL         *Path;
++  EFI_BOOT_MANAGER_LOAD_OPTION     Option;
++  UINTN                            Count;
++  UINTN                            Index;
++  BOOLEAN                          Match;
++  EFI_DEVICE_PATH_PROTOCOL         *DevicePath;
++
++  Status = gBS->LocateHandleBuffer (ByProtocol, &gEfiSimpleFileSystemProtocolGuid, NULL, &Count, &Handles);
++  if (EFI_ERROR (Status)) {
++    return Status;
++  }
++
++  Target = NULL;
++  for (Index = 0; Index < Count; Index++) {
++    DevicePath = DevicePathFromHandle (Handles[Index]);
++    if (DevicePath == NULL || !FilterNoUSB (DevicePath)) {
++      continue;
++    }
++
++    Status = gBS->HandleProtocol (Handles[Index], &gEfiSimpleFileSystemProtocolGuid, (VOID **)&FileSystem);
++    if (EFI_ERROR (Status) || EFI_ERROR (FileSystem->OpenVolume (FileSystem, &Root))) {
++      continue;
++    }
++
++    // ADK ARM64 media and the same media with the WinPE startup probe.
++    Match = (NxHasWinPeFile (Root, L"\\sources\\boot.wim", 366848527) ||
++             NxHasWinPeFile (Root, L"\\sources\\boot.wim", 368120959)) &&
++            NxHasWinPeFile (Root, L"\\boot\\boot.sdi", 3170304) &&
++            NxHasWinPeFile (Root, L"\\EFI\\Microsoft\\Boot\\BCD", 16384) &&
++            NxHasWinPeFile (Root, Loader, 3121200);
++    Root->Close (Root);
++    if (!Match) {
++      continue;
++    }
++    if (Target != NULL) {
++      FreePool (Handles);
++      return EFI_NO_MAPPING;
++    }
++    Target = Handles[Index];
++  }
++  FreePool (Handles);
++
++  if (Target == NULL) {
++    return EFI_NOT_FOUND;
++  }
++
++  Path = FileDevicePath (Target, Loader);
++  if (Path == NULL) {
++    return EFI_OUT_OF_RESOURCES;
++  }
++  Status = EfiBootManagerInitializeLoadOption (
++             &Option, LoadOptionNumberUnassigned, LoadOptionTypeBoot, LOAD_OPTION_ACTIVE,
++             L"NX809J direct WinPE", Path, NULL, 0
++             );
++  FreePool (Path);
++  if (EFI_ERROR (Status)) {
++    return Status;
++  }
++
++  EfiBootManagerBoot (&Option);
++  Status = Option.Status;
++  EfiBootManagerFreeLoadOption (&Option);
++  return Status;
++}
++#endif
++
+ BOOLEAN EFIAPI
+ FilterOnlyIPv4 (
+   EFI_DEVICE_PATH_PROTOCOL  *DevicePath
+@@ -670,6 +771,12 @@ MsBootPolicyEntry (
+           DEBUG ((DEBUG_ERROR, "%a Unable to set console mode - %r\n", __FUNCTION__, GraphicStatus));
+         }
+ 
++#ifdef NX809J_DIRECT_WINPE
++        Status = NxBootWinPeVolume ();
++        if (Status != EFI_NOT_FOUND && Status != EFI_NO_MAPPING) {
++          break;
++        }
++#endif
+         Status = SelectAndBootDevice (&gEfiSimpleFileSystemProtocolGuid, FilterNoUSB);
+         break;
+       case MsBootUSB:

@@ -9,3 +9,9 @@ BootShim.elf
 
 Mu-*.*
 *:Zone.Identifier
+
+# NX809J locally supplied firmware and generated ACPI
+Resources/DTBs/nx809j.dtb
+Platforms/ZTE/nx809jPkg/FdtBlob/*.dtb
+Platforms/ZTE/nx809jPkg/Acpi/*.aml
+**/__pycache__/

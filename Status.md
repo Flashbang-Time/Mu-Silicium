@@ -867,6 +867,28 @@
 
 </details>
 
+<details>
+<summary><b><strong>Nubia / RedMagic Devices</strong></b></summary>
+
+## RedMagic 11 Pro (NX809J)
+
+**State:** Experimental, active bring-up <br>
+**Codename:** qwjujube <br>
+**Maintainer:** [Flashbang-Time](https://github.com/Flashbang-Time)
+
+| Feature | Observed state |
+|:---|:---|
+| UEFI display | Working framebuffer |
+| UEFI storage | Partitions enumerated; Windows storage not established |
+| Windows boot | Windows 11 ARM64 PE reached a command prompt with the guarded AMU workaround |
+| Touch | Experimental driver; latest captured failure is signature enforcement |
+| USB host | Controller/hub errors; power alone does not establish data support |
+| GPU, audio, radio, power management | Unverified |
+
+See [platform notes](Platforms/ZTE/nx809jPkg/README.md) and [touch driver source](https://github.com/Flashbang-Time/nx809j-touch-driver). The upstream-refreshed rebuild needs a new hardware test.
+
+</details>
+
 ---
 
 </details>

@@ -1,0 +1,21 @@
+name: NX809J source checks
+on:
+  push:
+    paths:
+      - 'Platforms/ZTE/nx809jPkg/**'
+      - 'Tools/nx809j/**'
+      - '.github/workflows/nx809j-source.yml'
+  pull_request:
+    paths:
+      - 'Platforms/ZTE/nx809jPkg/**'
+      - 'Tools/nx809j/**'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  python-syntax:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check device and preparation Python sources
+        run: python -m compileall -q Platforms/ZTE/nx809jPkg Tools/nx809j

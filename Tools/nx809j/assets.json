@@ -1,0 +1,3696 @@
+[
+  {
+    "path": "ArmPkg/Drivers/ArmGic/ArmGicDxe.depex",
+    "sha256": "ec27a477247f9249f51e1a7c73b20b0d33ef7eaf6f9a9c3898f7f0c57ea8eee0",
+    "size": 36,
+    "upstream_matches": []
+  },
+  {
+    "path": "ArmPkg/Drivers/ArmGic/ArmGicDxe.efi",
+    "sha256": "203b08c79008a3b9bde4c20bcd56cb4a4c93e6b693cab85f48d10301ccdf0fad",
+    "size": 28160,
+    "upstream_matches": []
+  },
+  {
+    "path": "ArmPkg/Drivers/ArmGic/ArmGicDxe.inf",
+    "sha256": "d0c5fbf0933ea3200dcf0890384369168deb8d1c8a57c637d24d12a47a12867a",
+    "size": 405,
+    "upstream_matches": [
+      "a52q/ArmPkg/Drivers/ArmGic/ArmGicDxe.inf",
+      "a52sxq/ArmPkg/Drivers/ArmGic/ArmGicDxe.inf",
+      "aston/ArmPkg/Drivers/ArmGic/ArmGicDxe.inf"
+    ]
+  },
+  {
+    "path": "ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+    "sha256": "0022af439073edb110be200c19f758b076f4c818405aa7254cbe64cf48498a99",
+    "size": 18,
+    "upstream_matches": []
+  },
+  {
+    "path": "ArmPkg/Drivers/CpuDxe/CpuDxe.efi",
+    "sha256": "83ac3e614dc87cab1c834fd739903cb9feb831dc76a610c267ac4d292e05780b",
+    "size": 42496,
+    "upstream_matches": []
+  },
+  {
+    "path": "ArmPkg/Drivers/CpuDxe/CpuDxe.inf",
+    "sha256": "85f9cb5783fb124bc5581577bbb8d9191e7e6c245adaa55f4ccaef636aa2f9fd",
+    "size": 399,
+    "upstream_matches": [
+      "a52q/ArmPkg/Drivers/CpuDxe/CpuDxe.inf",
+      "a52sxq/ArmPkg/Drivers/CpuDxe/CpuDxe.inf",
+      "aston/ArmPkg/Drivers/CpuDxe/CpuDxe.inf"
+    ]
+  },
+  {
+    "path": "ArmPkg/Drivers/TimerDxe/TimerDxe.depex",
+    "sha256": "f4bf5f50273241e7a0b9177d82ef2a3f5f3c891222abba31ff5179e845e349be",
+    "size": 36,
+    "upstream_matches": []
+  },
+  {
+    "path": "ArmPkg/Drivers/TimerDxe/TimerDxe.efi",
+    "sha256": "1f12b0bb17dba883ad86f2e7c99be9bc3ad4031fb4964d2c3627b58e31a03e28",
+    "size": 18432,
+    "upstream_matches": []
+  },
+  {
+    "path": "ArmPkg/Drivers/TimerDxe/TimerDxe.inf",
+    "sha256": "e66538df387fc10255a98aa332400188d0f7ff4f84bc09f56b1056d4e4f58f15",
+    "size": 405,
+    "upstream_matches": [
+      "a52q/ArmPkg/Drivers/TimerDxe/TimerDxe.inf",
+      "a52sxq/ArmPkg/Drivers/TimerDxe/TimerDxe.inf",
+      "aston/ArmPkg/Drivers/TimerDxe/TimerDxe.inf"
+    ]
+  },
+  {
+    "path": "EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+    "sha256": "0022af439073edb110be200c19f758b076f4c818405aa7254cbe64cf48498a99",
+    "size": 18,
+    "upstream_matches": []
+  },
+  {
+    "path": "EmbeddedPkg/MetronomeDxe/MetronomeDxe.efi",
+    "sha256": "9b2257d948b07dfdcff489e8164f8f916b41276759cbf7602a10a5b6f2813b4a",
+    "size": 17408,
+    "upstream_matches": []
+  },
+  {
+    "path": "EmbeddedPkg/MetronomeDxe/MetronomeDxe.inf",
+    "sha256": "503213a6cf3832f78d1ff09b946ad97e6b79c88faac2f0aedf8da345b862a5c8",
+    "size": 414,
+    "upstream_matches": [
+      "a52q/EmbeddedPkg/MetronomeDxe/MetronomeDxe.inf",
+      "a52sxq/EmbeddedPkg/MetronomeDxe/MetronomeDxe.inf",
+      "aston/EmbeddedPkg/MetronomeDxe/MetronomeDxe.inf"
+    ]
+  },
+  {
+    "path": "EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex",
+    "sha256": "de3c89845910a4cf5516a2b150c4dd309edb31fbe51bbb7c15d2ad956a7d56f9",
+    "size": 36,
+    "upstream_matches": []
+  },
+  {
+    "path": "EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.efi",
+    "sha256": "89cbef01b2330a5e8a15e5b6b6c007afe547e9f9a526712f326945a018d09064",
+    "size": 18432,
+    "upstream_matches": []
+  },
+  {
+    "path": "EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.inf",
+    "sha256": "dd0267c9cb0412534c69619ad9f605a08fbf9be9a86247e16c1cb7fb17a9b649",
+    "size": 437,
+    "upstream_matches": [
+      "a52q/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.inf",
+      "a52sxq/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.inf",
+      "aston/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.inf"
+    ]
+  },
+  {
+    "path": "FatPkg/EnhancedFatDxe/Fat.efi",
+    "sha256": "43b34064a49f8dc763a9adff5c2c97216de7c66c53101abb3b1834df69b54fce",
+    "size": 51200,
+    "upstream_matches": []
+  },
+  {
+    "path": "FatPkg/EnhancedFatDxe/Fat.inf",
+    "sha256": "a9ec8a62ca0e233b21e902987bb4d1b014ffe984ab7e3f7b7a463b797ea0d2cc",
+    "size": 299,
+    "upstream_matches": [
+      "a52q/FatPkg/EnhancedFatDxe/Fat.inf",
+      "a52sxq/FatPkg/EnhancedFatDxe/Fat.inf",
+      "aston/FatPkg/EnhancedFatDxe/Fat.inf"
+    ]
+  },
+  {
+    "path": "MdeModulePkg/Core/Dxe/DxeMain.efi",
+    "sha256": "d231d3e417b4bd81108f9567925906279815ed4a8fd2769503a6fb72b6c16823",
+    "size": 160256,
+    "upstream_matches": []
+  },
+  {
+    "path": "MdeModulePkg/Core/Dxe/DxeMain.inf",
+    "sha256": "1a1e5b894a81a839b0bec89231337ca6a9fbf561c5fa3969e93f7fe30f8a17c1",
+    "size": 304,
+    "upstream_matches": [
+      "a52q/MdeModulePkg/Core/Dxe/DxeMain.inf",
+      "a52sxq/MdeModulePkg/Core/Dxe/DxeMain.inf",
+      "aston/MdeModulePkg/Core/Dxe/DxeMain.inf"
+    ]
+  },
+  {
+    "path": "MdeModulePkg/Core/RuntimeDxe/RuntimeDxe.depex",
+    "sha256": "0022af439073edb110be200c19f758b076f4c818405aa7254cbe64cf48498a99",
+    "size": 18,
+    "upstream_matches": []
+  },
+  {
+    "path": "MdeModulePkg/Core/RuntimeDxe/RuntimeDxe.efi",
+    "sha256": "10cf97f53e2accd97d653f863d382c70bc156865e8ceef689012c47f45cd9b78",
+    "size": 20480,
+    "upstream_matches": []
+  },
+  {
+    "path": "MdeModulePkg/Core/RuntimeDxe/RuntimeDxe.inf",
+    "sha256": "a1ecb68d8f77cc69e04f2f5d604b42d6bcef9051c4fd6e7f0daecbf7fdb91fec",
+    "size": 408,
+    "upstream_matches": [
+      "a52q/MdeModulePkg/Core/RuntimeDxe/RuntimeDxe.inf",
+      "a52sxq/MdeModulePkg/Core/RuntimeDxe/RuntimeDxe.inf",
+      "aston/MdeModulePkg/Core/RuntimeDxe/RuntimeDxe.inf"
+    ]
+  },
+  {
+    "path": "MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe.depex",
+    "sha256": "97c08853f72b5b764b4142ff11c8f8728155331e490596f2ef12df0d10f6eaec",
+    "size": 36,
+    "upstream_matches": []
+  },
+  {
+    "path": "MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe.efi",
+    "sha256": "5145003ec0c3a854284daab16ce5adb7fe6630ffe08be6f8a9f78e7b132dbadb",
+    "size": 18944,
+    "upstream_matches": []
+  },
+  {
+    "path": "MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe.inf",
+    "sha256": "d75277c2bfc2f14199555c1aa913758d1b99f86d78322b21f0bfe0e3d54afd9e",
+    "size": 429,
+    "upstream_matches": [
+      "a52q/MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe.inf",
+      "a52sxq/MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe.inf",
+      "aston/MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe.inf"
+    ]
+  },
+  {
+    "path": "MdeModulePkg/Universal/Console/ConPlatformDxe/ConPlatformDxe.efi",
+    "sha256": "5686e2c0ee19dbe0c04f0df7ff62472ffbf029995bd016a84d084fcb71b1ca13",
+    "size": 27648,
+    "upstream_matches": []
+  },
+  {
+    "path": "MdeModulePkg/Universal/Console/ConPlatformDxe/ConPlatformDxe.inf",
+    "sha256": "53b743849db57fc52980da3f9f74806b9eae691e9711e0c97e79d37470818c0e",
+    "size": 321,
+    "upstream_matches": [
+      "a52q/MdeModulePkg/Universal/Console/ConPlatformDxe/ConPlatformDxe.inf",
+      "a52sxq/MdeModulePkg/Universal/Console/ConPlatformDxe/ConPlatformDxe.inf",
+      "aston/MdeModulePkg/Universal/Console/ConPlatformDxe/ConPlatformDxe.inf"
+    ]
+  },
+  {
+    "path": "MdeModulePkg/Universal/Console/ConSplitterDxe/ConSplitterDxe.efi",
+    "sha256": "43751cecfd53fd906269c9fffabfba158bde700563e990b185ab8c2d51613bc4",
+    "size": 37888,
+    "upstream_matches": []
+  },
+  {
+    "path": "MdeModulePkg/Universal/Console/ConSplitterDxe/ConSplitterDxe.inf",
+    "sha256": "fef8408ffb5900d93d2b2d1222c12a1d67c6b369e682623549b76c3a5097380f",
+    "size": 321,
+    "upstream_matches": [
+      "a52q/MdeModulePkg/Universal/Console/ConSplitterDxe/ConSplitterDxe.inf",
+      "a52sxq/MdeModulePkg/Universal/Console/ConSplitterDxe/ConSplitterDxe.inf",
+      "aston/MdeModulePkg/Universal/Console/ConSplitterDxe/ConSplitterDxe.inf"
+    ]
+  },
+  {
+    "path": "MdeModulePkg/Universal/Console/GraphicsConsoleDxe/GraphicsConsoleDxe.efi",
+    "sha256": "c7524fedc24fa82869cec988d214b1c3cda08ed066bad761e33fb4cac2332d1b",
+    "size": 32256,
+    "upstream_matches": []
+  },
+  {
+    "path": "MdeModulePkg/Universal/Console/GraphicsConsoleDxe/GraphicsConsoleDxe.inf",
+    "sha256": "3f22f5d9ea0a7ab23670ce8c9a78accedde53d27a6442e433e90b2db79dd33eb",
+    "size": 329,
+    "upstream_matches": [
+      "a52q/MdeModulePkg/Universal/Console/GraphicsConsoleDxe/GraphicsConsoleDxe.inf",
+      "a52sxq/MdeModulePkg/Universal/Console/GraphicsConsoleDxe/GraphicsConsoleDxe.inf",
+      "aston/MdeModulePkg/Universal/Console/GraphicsConsoleDxe/GraphicsConsoleDxe.inf"
+    ]
+  },
+  {
+    "path": "MdeModulePkg/Universal/DevicePathDxe/DevicePathDxe.depex",
+    "sha256": "0022af439073edb110be200c19f758b076f4c818405aa7254cbe64cf48498a99",
+    "size": 18,
+    "upstream_matches": []
+  },
+  {
+    "path": "MdeModulePkg/Universal/DevicePathDxe/DevicePathDxe.efi",
+    "sha256": "d98c0225972526e3d8520159872dbc98803b2e934c97c0e912f1f19a036b5ebf",
+    "size": 60928,
+    "upstream_matches": []
+  },
+  {
+    "path": "MdeModulePkg/Universal/DevicePathDxe/DevicePathDxe.inf",
+    "sha256": "f44291d5a627143fc00770e98ac322a8bdbaec1e06f7942be0fd3dc6b8cc574b",
+    "size": 417,
+    "upstream_matches": [
+      "a52q/MdeModulePkg/Universal/DevicePathDxe/DevicePathDxe.inf",
+      "a52sxq/MdeModulePkg/Universal/DevicePathDxe/DevicePathDxe.inf",
+      "aston/MdeModulePkg/Universal/DevicePathDxe/DevicePathDxe.inf"
+    ]
+  },
+  {
+    "path": "MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.efi",
+    "sha256": "a838c3308237f8fe7a1571de5570697f2bfd2d315ac66997b74076717a6139fc",
+    "size": 40960,
+    "upstream_matches": [
+      "infiniti/MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.efi"
+    ]
+  },
+  {
+    "path": "MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf",
+    "sha256": "06d0bb2ec8306793be61bf3354f1469b0b882995b26ede79edcd02177ad20b5a",
+    "size": 311,
+    "upstream_matches": [
+      "a52q/MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf",
+      "a52sxq/MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf",
+      "aston/MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf"
+    ]
+  },
+  {
+    "path": "MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.efi",
+    "sha256": "a36e8bc2bf2ad47c965bb8d791854e2f0c688827012a5fb2e569e1a7a25d4072",
+    "size": 53248,
+    "upstream_matches": [
+      "infiniti/MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.efi"
+    ]
+  },
+  {
+    "path": "MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf",
+    "sha256": "aed2d42a71d29e46b0d3f0d63a5222561a5f543fb4890f2f87f5a93a0c9c82a7",
+    "size": 317,
+    "upstream_matches": [
+      "a52q/MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf",
+      "a52sxq/MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf",
+      "aston/MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf"
+    ]
+  },
+  {
+    "path": "MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe.efi",
+    "sha256": "f1750f8f8869b3914ce1fef95d5436fc49094f3df79c97e513c36e66ff9f0fa6",
+    "size": 18432,
+    "upstream_matches": []
+  },
+  {
+    "path": "MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe.inf",
+    "sha256": "42688ad114d761fae34856dc3f397155c7b75d145dd1c8998a8148aaf3034e86",
+    "size": 313,
+    "upstream_matches": [
+      "a52q/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe.inf",
+      "a52sxq/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe.inf",
+      "aston/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe.inf"
+    ]
+  },
+  {
+    "path": "MdeModulePkg/Universal/FvSimpleFileSystemDxe/FvSimpleFileSystemDxe.efi",
+    "sha256": "d516b386685ba6ee1ab1e3ee8ea62036285f81c441a8f50fa7694b9917708cb4",
+    "size": 45056,
+    "upstream_matches": [
+      "infiniti/MdeModulePkg/Universal/FvSimpleFileSystemDxe/FvSimpleFileSystemDxe.efi"
+    ]
+  },
+  {
+    "path": "MdeModulePkg/Universal/FvSimpleFileSystemDxe/FvSimpleFileSystemDxe.inf",
+    "sha256": "23efd7ca8c07e63e35cbab610101d160acb41093c58b300390981e62932bf8c3",
+    "size": 332,
+    "upstream_matches": [
+      "a52q/MdeModulePkg/Universal/FvSimpleFileSystemDxe/FvSimpleFileSystemDxe.inf",
+      "a52sxq/MdeModulePkg/Universal/FvSimpleFileSystemDxe/FvSimpleFileSystemDxe.inf",
+      "aston/MdeModulePkg/Universal/FvSimpleFileSystemDxe/FvSimpleFileSystemDxe.inf"
+    ]
+  },
+  {
+    "path": "MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe.depex",
+    "sha256": "0022af439073edb110be200c19f758b076f4c818405aa7254cbe64cf48498a99",
+    "size": 18,
+    "upstream_matches": []
+  },
+  {
+    "path": "MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe.efi",
+    "sha256": "75699d2b0c6a8182f75536790d657d10fde16a570f8db9f4eee7fa20030121ef",
+    "size": 121856,
+    "upstream_matches": []
+  },
+  {
+    "path": "MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe.inf",
+    "sha256": "37a6a13924420a65133c6676fd01653956892700d672e71ade5db330eb4db951",
+    "size": 417,
+    "upstream_matches": [
+      "a52q/MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe.inf",
+      "a52sxq/MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe.inf",
+      "aston/MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe.inf"
+    ]
+  },
+  {
+    "path": "MdeModulePkg/Universal/PrintDxe/PrintDxe.depex",
+    "sha256": "0022af439073edb110be200c19f758b076f4c818405aa7254cbe64cf48498a99",
+    "size": 18,
+    "upstream_matches": []
+  },
+  {
+    "path": "MdeModulePkg/Universal/PrintDxe/PrintDxe.efi",
+    "sha256": "3016d892cd189f22fe30bb48fd063bc5893734aa4d5b24e824a7465f78cb6da6",
+    "size": 22528,
+    "upstream_matches": []
+  },
+  {
+    "path": "MdeModulePkg/Universal/PrintDxe/PrintDxe.inf",
+    "sha256": "40da8f5160d4c85a2373bb34cbb2f092a025b093972a5f98aea14cc4cd09cee0",
+    "size": 402,
+    "upstream_matches": [
+      "a52q/MdeModulePkg/Universal/PrintDxe/PrintDxe.inf",
+      "a52sxq/MdeModulePkg/Universal/PrintDxe/PrintDxe.inf",
+      "aston/MdeModulePkg/Universal/PrintDxe/PrintDxe.inf"
+    ]
+  },
+  {
+    "path": "MdeModulePkg/Universal/ReportStatusCodeRouter/RuntimeDxe/RscRtDxe.depex",
+    "sha256": "0022af439073edb110be200c19f758b076f4c818405aa7254cbe64cf48498a99",
+    "size": 18,
+    "upstream_matches": []
+  },
+  {
+    "path": "MdeModulePkg/Universal/ReportStatusCodeRouter/RuntimeDxe/RscRtDxe.efi",
+    "sha256": "caab2a699791cf4c6d6337aefe342ad774d415b85637d6428b59bb15b5647b11",
+    "size": 9216,
+    "upstream_matches": []
+  },
+  {
+    "path": "MdeModulePkg/Universal/ReportStatusCodeRouter/RuntimeDxe/RscRtDxe.inf",
+    "sha256": "29c814c0330a5f117fcfb22516dc5cb46d89a86e37284e11d221e9972318bb1e",
+    "size": 402,
+    "upstream_matches": [
+      "a52q/MdeModulePkg/Universal/ReportStatusCodeRouter/RuntimeDxe/RscRtDxe.inf",
+      "a52sxq/MdeModulePkg/Universal/ReportStatusCodeRouter/RuntimeDxe/RscRtDxe.inf",
+      "aston/MdeModulePkg/Universal/ReportStatusCodeRouter/RuntimeDxe/RscRtDxe.inf"
+    ]
+  },
+  {
+    "path": "MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.depex",
+    "sha256": "0022af439073edb110be200c19f758b076f4c818405aa7254cbe64cf48498a99",
+    "size": 18,
+    "upstream_matches": []
+  },
+  {
+    "path": "MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.efi",
+    "sha256": "f25ab5529f5ec8150ab800ba569f500dc197a9e7fe365032163da4c2c2edb6cc",
+    "size": 37376,
+    "upstream_matches": []
+  },
+  {
+    "path": "MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.inf",
+    "sha256": "6855673ede85d3739f67579a3583291c9dae648c24355bdb7d82ee380e7a5972",
+    "size": 423,
+    "upstream_matches": [
+      "a52q/MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.inf",
+      "a52sxq/MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.inf",
+      "aston/MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.inf"
+    ]
+  },
+  {
+    "path": "MdeModulePkg/Universal/StatusCodeHandler/RuntimeDxe/SCHandlerRtDxe.depex",
+    "sha256": "a2d27c35187a2260482512c6e807cad0e990bb2190fe9b7109f9610750102250",
+    "size": 36,
+    "upstream_matches": []
+  },
+  {
+    "path": "MdeModulePkg/Universal/StatusCodeHandler/RuntimeDxe/SCHandlerRtDxe.efi",
+    "sha256": "03a94058469fb6bd0b4291842b4f13b7629741462ec0ac64facf9c1a4732776e",
+    "size": 19456,
+    "upstream_matches": []
+  },
+  {
+    "path": "MdeModulePkg/Universal/StatusCodeHandler/RuntimeDxe/SCHandlerRtDxe.inf",
+    "sha256": "24fbd9dc920fde3cd105c0e4ee401d4d1488ea6019dd6680dc561857f2269c0a",
+    "size": 420,
+    "upstream_matches": [
+      "a52q/MdeModulePkg/Universal/StatusCodeHandler/RuntimeDxe/SCHandlerRtDxe.inf",
+      "a52sxq/MdeModulePkg/Universal/StatusCodeHandler/RuntimeDxe/SCHandlerRtDxe.inf",
+      "aston/MdeModulePkg/Universal/StatusCodeHandler/RuntimeDxe/SCHandlerRtDxe.inf"
+    ]
+  },
+  {
+    "path": "MdeModulePkg/Universal/WatchdogTimerDxe/WatchdogTimer.depex",
+    "sha256": "ef18c96e15c567650f90accb1352d20c70c10f29e3c96ed899329ef5a5598aef",
+    "size": 36,
+    "upstream_matches": []
+  },
+  {
+    "path": "MdeModulePkg/Universal/WatchdogTimerDxe/WatchdogTimer.efi",
+    "sha256": "a0bb137801d496f39e96eb93a6e94c29865147823d65418622e1d931c2b07e61",
+    "size": 17920,
+    "upstream_matches": []
+  },
+  {
+    "path": "MdeModulePkg/Universal/WatchdogTimerDxe/WatchdogTimer.inf",
+    "sha256": "f52977171f5ebf5c62ca9b01e4cb30f1b0b0761158474467b8e80f973b98fd75",
+    "size": 417,
+    "upstream_matches": [
+      "a52q/MdeModulePkg/Universal/WatchdogTimerDxe/WatchdogTimer.inf",
+      "a52sxq/MdeModulePkg/Universal/WatchdogTimerDxe/WatchdogTimer.inf",
+      "aston/MdeModulePkg/Universal/WatchdogTimerDxe/WatchdogTimer.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Application/Ebl/Ebl.efi",
+    "sha256": "091712b7897baada7853168c87ad55a7b55e852afe2cab431470fec9a5d6bcf5",
+    "size": 118784,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Application/Ebl/Ebl.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Application/Ebl/Ebl.inf",
+    "sha256": "145215424bde9168416c629586c2097a1592eb3fb32b6f887f511ecf7cb22191",
+    "size": 304,
+    "upstream_matches": [
+      "a52sxq/EmbeddedPkg/Ebl/Ebl.inf",
+      "aston/EmbeddedPkg/Ebl/Ebl.inf",
+      "bale_b/QcomPkg/Application/Ebl/Ebl.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Application/QcomChargerApp/QcomChargerAppGio.efi",
+    "sha256": "774a50ba9629d468ab5a952451200bd79189f857c2f2c15151030c6ac39d1c2a",
+    "size": 98304,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Application/QcomChargerApp/QcomChargerAppGio.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Application/QcomChargerApp/QcomChargerAppGio.inf",
+    "sha256": "010b2b794b2bc3b55f6efd0db2e0cf41b2db7df50313468620542cb62b820344",
+    "size": 329,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Application/QcomChargerApp/QcomChargerAppGio.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ASN1X509Dxe/ASN1X509Dxe.efi",
+    "sha256": "a255a3e710c09c40cc4c48fd231e51dc326d18b59991e452a7f165c84e334a3d",
+    "size": 40960,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/ASN1X509Dxe/ASN1X509Dxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ASN1X509Dxe/ASN1X509Dxe.inf",
+    "sha256": "b02c6f2b4d5d82d0f3a830ce261bd4c9d44f89ab9de623df5edbffd20c669804",
+    "size": 315,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/ASN1X509Dxe/ASN1X509Dxe.inf",
+      "a52sxq/QcomPkg/Drivers/ASN1X509Dxe/ASN1X509Dxe.inf",
+      "aston/QcomPkg/Drivers/ASN1X509Dxe/ASN1X509Dxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/AbSlotDxe/AbSlotDxe.depex",
+    "sha256": "55ef10b4f62dbfc49dc7f4cb319343d32ed208bd74be85945559250ff86c18ed",
+    "size": 18,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/AbSlotDxe/AbSlotDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/AbSlotDxe/AbSlotDxe.efi",
+    "sha256": "f6eebdc3e4de5f25fb9cdfc0adb0d896477dad3be77fa7e55aca477120670eb5",
+    "size": 28672,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/AbSlotDxe/AbSlotDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/AbSlotDxe/AbSlotDxe.inf",
+    "sha256": "437806291cc758c10a42d505991be272a9e5c4c17151e8985cdf47542cd6d11c",
+    "size": 405,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/AbSlotDxe/AbSlotDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/AndroidDxe/AndroidDxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/AndroidDxe/AndroidDxe.efi",
+    "sha256": "a718d1761c36dee162108ca92886282683aff39405b40d89d486647d57c5007f",
+    "size": 172032,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/AndroidDxe/AndroidDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/AndroidDxe/AndroidDxe.inf",
+    "sha256": "685f42b4389f57bf4b7aed2190fb857514ceb079e7568b54d6beac31a4714ecb",
+    "size": 408,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/AndroidDxe/AndroidDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ButtonsDxe/ButtonsDxe.depex",
+    "sha256": "202ad9811555d98efa58563c98a3b90e94d76630feb68f92c8d7a63c46998d9d",
+    "size": 108,
+    "upstream_matches": [
+      "annibale/QcomPkg/Drivers/ButtonsDxe/ButtonsDxe.depex",
+      "bale_b/QcomPkg/Drivers/ButtonsDxe/ButtonsDxe.depex",
+      "dodge/QcomPkg/Drivers/ButtonsDxe/ButtonsDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ButtonsDxe/ButtonsDxe.efi",
+    "sha256": "6678a2422f27e3debfee02eb32d319d91caad1df3c3e8fad33ae3eaa4d1c84d4",
+    "size": 45056,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/ButtonsDxe/ButtonsDxe.patched.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ButtonsDxe/ButtonsDxe.inf",
+    "sha256": "ac0b37780c9fd40dba42fdbb2f086c992c3a182d5244bd2d9b91f34f1714c962",
+    "size": 416,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/ButtonsDxe/ButtonsDxe.inf",
+      "a52sxq/QcomPkg/Drivers/ButtonsDxe/ButtonsDxe.inf",
+      "aston/QcomPkg/Drivers/ButtonsDxe/ButtonsDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ButtonsDxe/ButtonsDxe.patched.efi",
+    "sha256": "6678a2422f27e3debfee02eb32d319d91caad1df3c3e8fad33ae3eaa4d1c84d4",
+    "size": 45056,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/ButtonsDxe/ButtonsDxe.patched.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/CPRDxe/CPRDxe.depex",
+    "sha256": "4222f37e19a4b252aa185240a267b613ee5e464543e682f222a21fea7c0ed2a2",
+    "size": 36,
+    "upstream_matches": [
+      "annibale/QcomPkg/Drivers/CPRDxe/CPRDxe.depex",
+      "annibale/QcomPkg/Drivers/RpmhDxe/RpmhDxe.depex",
+      "bale_b/QcomPkg/Drivers/CPRDxe/CPRDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/CPRDxe/CPRDxe.efi",
+    "sha256": "e50792c34f7d4dd304b21445cc0c85fdcc816de0ac4bd46303b4d1eddfb6cafa",
+    "size": 86016,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/CPRDxe/CPRDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/CPRDxe/CPRDxe.inf",
+    "sha256": "bedbdafa322b35eafd11597326eb8964a813508eaa0e1b30b700893d039e0789",
+    "size": 396,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/CPRDxe/CPRDxe.inf",
+      "a52sxq/QcomPkg/Drivers/CPRDxe/CPRDxe.inf",
+      "aston/QcomPkg/Drivers/CPRDxe/CPRDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/CalibrationDxe/CalibrationDxe.depex",
+    "sha256": "198572dfc095ac01549eb5cc56e7eabe5a516f7053e5793324c93a4a737753c3",
+    "size": 54,
+    "upstream_matches": [
+      "annibale/QcomPkg/Drivers/CalibrationDxe/CalibrationDxe.depex",
+      "dodge/QcomPkg/Drivers/CalibrationDxe/CalibrationDxe.depex",
+      "infiniti/QcomPkg/Drivers/CalibrationDxe/CalibrationDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/CalibrationDxe/CalibrationDxe.efi",
+    "sha256": "ca2eec862cdf6f0dbab5437e6ae6e55b8cc65f95351462c6336e7a19ac80cd8d",
+    "size": 49152,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/CalibrationDxe/CalibrationDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/CalibrationDxe/CalibrationDxe.inf",
+    "sha256": "471c71ceae93608eaef93c8096046e27506d136eed4e991d32a50b09367c3579",
+    "size": 420,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/CalibrationDxe/CalibrationDxe.inf",
+      "pagani/QcomPkg/Drivers/CalibrationDxe/CalibrationDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ChargerExDxe/ChargerExDxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ChargerExDxe/ChargerExDxe.efi",
+    "sha256": "43ead83134d10f581dca2336bec38a07757d075bb0d9262a6d6a8a26b6df9fc9",
+    "size": 32768,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/ChargerExDxe/ChargerExDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ChargerExDxe/ChargerExDxe.inf",
+    "sha256": "886911c00731e3b591617240cc41b47d07a5f33c4828ed58b33d09f99b1d396a",
+    "size": 414,
+    "upstream_matches": [
+      "aston/QcomPkg/Drivers/ChargerExDxe/ChargerExDxe.inf",
+      "bale_b/QcomPkg/Drivers/ChargerExDxe/ChargerExDxe.inf",
+      "beryllium/QcomPkg/Drivers/ChargerExDxe/ChargerExDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ChipInfoDxe/ChipInfoDxe.depex",
+    "sha256": "5a2204901e9095761d883230974b7d3265bb85eb6eecfd02550ce4d17ec61802",
+    "size": 36,
+    "upstream_matches": [
+      "9707f/QcomPkg/Drivers/ChipInfoDxe/ChipInfoDxe.depex",
+      "a52q/QcomPkg/Drivers/ChipInfoDxe/ChipInfoDxe.depex",
+      "a52sxq/QcomPkg/Drivers/ChipInfoDxe/ChipInfoDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ChipInfoDxe/ChipInfoDxe.efi",
+    "sha256": "47d909f735325cfa2d844d78fc50792f3c37ec176141dba0182b7cb76d554ebc",
+    "size": 53248,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/ChipInfoDxe/ChipInfoDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ChipInfoDxe/ChipInfoDxe.inf",
+    "sha256": "25d2703bdabc9c0c09a89f3eeccf82ee3781181e389f78881da1489746d0c9e5",
+    "size": 408,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/ChipInfoDxe/ChipInfoDxe.inf",
+      "a52sxq/QcomPkg/Drivers/ChipInfoDxe/ChipInfoDxe.inf",
+      "aston/QcomPkg/Drivers/ChipInfoDxe/ChipInfoDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ClockDxe/ClockDxe.depex",
+    "sha256": "c8001e9cea134cf8205ad4167fd0ff3b8dab6ecf325c723158cc6916e4a9b1cf",
+    "size": 54,
+    "upstream_matches": [
+      "annibale/QcomPkg/Drivers/ClockDxe/ClockDxe.depex",
+      "annibale/QcomPkg/Drivers/ICBDxe/ICBDxe.depex",
+      "annibale/QcomPkg/Drivers/VcsDxe/VcsDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ClockDxe/ClockDxe.efi",
+    "sha256": "1184fa185ce78d545c8c45e323eb20dac50706e64d1c7f1d16107f7906f66242",
+    "size": 266240,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/ClockDxe/ClockDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ClockDxe/ClockDxe.inf",
+    "sha256": "fa8ed594862012eb3a861a99ba17f5854046d2a9e7b6a587fe5d65e7c9564f9c",
+    "size": 402,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/ClockDxe/ClockDxe.inf",
+      "a52sxq/QcomPkg/Drivers/ClockDxe/ClockDxe.inf",
+      "alioth/QcomPkg/Drivers/ClockDxe/ClockDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/CmdDbDxe/CmdDbDxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/CmdDbDxe/CmdDbDxe.efi",
+    "sha256": "0dda76aa1303faf7b3a9aa12279b8ce458651698652d384b8f59e34d30c4235e",
+    "size": 32768,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/CmdDbDxe/CmdDbDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/CmdDbDxe/CmdDbDxe.inf",
+    "sha256": "ca27960a7eec2834a32e0f5117c3dcadb98b3752def0b7c8be645b5f5007c604",
+    "size": 402,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/CmdDbDxe/CmdDbDxe.inf",
+      "a52sxq/QcomPkg/Drivers/CmdDbDxe/CmdDbDxe.inf",
+      "aston/QcomPkg/Drivers/CmdDbDxe/CmdDbDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/DALSYSDxe/DALSYSDxe.depex",
+    "sha256": "445084b65f55991565be20b692e489f28006a91c3d0a050eae2a8eebdf12f563",
+    "size": 18,
+    "upstream_matches": [
+      "9707f/QcomPkg/Drivers/DALSYSDxe/DALSYSDxe.depex",
+      "9707f/QcomPkg/Drivers/UFSDxe/UFSDxe.depex",
+      "a52q/QcomPkg/Drivers/DALSYSDxe/DALSYSDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/DALSYSDxe/DALSYSDxe.efi",
+    "sha256": "f0d6857148812108ad7b9f26d8680960c7b8a043261d857764cc5aa7411bbdc0",
+    "size": 352256,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/DALSYSDxe/DALSYSDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/DALSYSDxe/DALSYSDxe.inf",
+    "sha256": "00e4640ee7fd818d1f1e21d4a6002eb80ef35228463ee7818af0fa5376684904",
+    "size": 402,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/DALSYSDxe/DALSYSDxe.inf",
+      "aston/QcomPkg/Drivers/DALSYSDxe/DALSYSDxe.inf",
+      "bale_b/QcomPkg/Drivers/DALSYSDxe/DALSYSDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/DDRInfoDxe/DDRInfoDxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/DDRInfoDxe/DDRInfoDxe.efi",
+    "sha256": "48d1b024fad55f1446b6c395c0c0cac5e67f3a4cdf94151ee97faa4f789f66c1",
+    "size": 49152,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/DDRInfoDxe/DDRInfoDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/DDRInfoDxe/DDRInfoDxe.inf",
+    "sha256": "e11e21dc92ad28b9ebdf6d69df97b88445edfa5fa97ce05b0dfc272be9cc10ef",
+    "size": 408,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/DDRInfoDxe/DDRInfoDxe.inf",
+      "a52sxq/QcomPkg/Drivers/DDRInfoDxe/DDRInfoDxe.inf",
+      "aston/QcomPkg/Drivers/DDRInfoDxe/DDRInfoDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/DisplayDxe/DisplayDxe.depex",
+    "sha256": "1160a8a2f29f1ca18fa4b8384384536925bac48301e59f7235e43b0aff451b62",
+    "size": 162,
+    "upstream_matches": [
+      "9707f/QcomPkg/Drivers/DisplayDxe/DisplayDxe.depex",
+      "a52q/QcomPkg/Drivers/DisplayDxe/DisplayDxe.depex",
+      "alioth/QcomPkg/Drivers/DisplayDxe/DisplayDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/DisplayDxe/DisplayDxe.efi",
+    "sha256": "62996b156340ae4c88b0e37e15a1427e919dc7e151d5f90fd3342fd72030bf9b",
+    "size": 438272,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/DisplayDxe/DisplayDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/DisplayDxe/DisplayDxe.inf",
+    "sha256": "0cd33a25e4ec8c97cdf64f23c06fbf7a547da1d317105b66888f24c1e57814a2",
+    "size": 408,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/DisplayDxe/DisplayDxe.inf",
+      "a52sxq/QcomPkg/Drivers/DisplayDxe/DisplayDxe.inf",
+      "bale_b/QcomPkg/Drivers/DisplayDxe/DisplayDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/EmbeddedMonotonicCounter/EmbeddedMonotonicCounter.depex",
+    "sha256": "f7126f1178fee554f86cfc02416cea9e34d816608cd6835ebf9f4251270f8171",
+    "size": 36,
+    "upstream_matches": [
+      "annibale/QcomPkg/Drivers/EmbeddedMonotonicCounter/EmbeddedMonotonicCounter.depex",
+      "bale_b/QcomPkg/Drivers/EmbeddedMonotonicCounter/EmbeddedMonotonicCounter.depex",
+      "dodge/QcomPkg/Drivers/EmbeddedMonotonicCounter/EmbeddedMonotonicCounter.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/EmbeddedMonotonicCounter/EmbeddedMonotonicCounter.efi",
+    "sha256": "4e0a1be4be00c5149613e57ee751ae1a8859576da33977fa1549a9ea8728d40c",
+    "size": 32768,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/EmbeddedMonotonicCounter/EmbeddedMonotonicCounter.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/EmbeddedMonotonicCounter/EmbeddedMonotonicCounter.inf",
+    "sha256": "a99ab60df7e995a702544f40cfab9658bf6e8dc7b71984668f5a66f55bd88cea",
+    "size": 450,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/EmbeddedMonotonicCounter/EmbeddedMonotonicCounter.inf",
+      "a52sxq/QcomPkg/Drivers/EmbeddedMonotonicCounter/EmbeddedMonotonicCounter.inf",
+      "aston/QcomPkg/Drivers/EmbeddedMonotonicCounter/EmbeddedMonotonicCounter.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/EnvDxe/EnvDxeEnhanced.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/EnvDxe/EnvDxeEnhanced.efi",
+    "sha256": "5df63cb8ec819da7d2e817bcbf476624a61ca9362c1534edf5aac6b0e9c3658f",
+    "size": 77824,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/EnvDxe/EnvDxeEnhanced.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/EnvDxe/EnvDxeEnhanced.inf",
+    "sha256": "75bed2fae827be2e9abb74cc8523decddaa6d3e41b0bbee6aab3f72739e784ba",
+    "size": 420,
+    "upstream_matches": [
+      "bale_b/QcomPkg/Drivers/EnvDxe/EnvDxeEnhanced.inf",
+      "infiniti/QcomPkg/Drivers/EnvDxe/EnvDxeEnhanced.inf",
+      "muyu/QcomPkg/Drivers/EnvDxe/EnvDxeEnhanced.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/FMFDxe/FMFDxe.efi",
+    "sha256": "efe70b9f849d42234ce35c095b4f8715f911b72c15a55fb76ac38f589c2f550f",
+    "size": 28672,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/FMFDxe/FMFDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/FMFDxe/FMFDxe.inf",
+    "sha256": "a02b11baa8b895ea328bf89613c31dc479445a1e89bb8433d09063aa245e83cf",
+    "size": 305,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/FMFDxe/FMFDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/FeatureEnablerDxe/FeatureEnablerDxe.efi",
+    "sha256": "442e86ba6a2ec7d12957716f5a4f3726af0e7f610132ed11ac280ae2842ae607",
+    "size": 32768,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/FeatureEnablerDxe/FeatureEnablerDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/FeatureEnablerDxe/FeatureEnablerDxe.inf",
+    "sha256": "76a9edc5280f87d6e454788c273d16ae19653b2b8d1dbc06c3990e3ace417935",
+    "size": 327,
+    "upstream_matches": [
+      "a52sxq/QcomPkg/Drivers/FeatureEnablerDxe/FeatureEnablerDxe.inf",
+      "aston/QcomPkg/Drivers/FeatureEnablerDxe/FeatureEnablerDxe.inf",
+      "bale_b/QcomPkg/Drivers/FeatureEnablerDxe/FeatureEnablerDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/FontDxe/FontDxe.depex",
+    "sha256": "a3ba363e3f33fec61cf0f67f51d49dcb465bf088d753a25ef4111db1747ed264",
+    "size": 54,
+    "upstream_matches": [
+      "9707f/QcomPkg/Drivers/FontDxe/FontDxe.depex",
+      "a52q/QcomPkg/Drivers/FontDxe/FontDxe.depex",
+      "a52q/QcomPkg/Drivers/QcomBds/QcomBds.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/FontDxe/FontDxe.efi",
+    "sha256": "7f7eaadebceabb9fae0febb8bee3af491e7217e58ac2f9e83e7731e395742510",
+    "size": 36864,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/FontDxe/FontDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/FontDxe/FontDxe.inf",
+    "sha256": "b03e655fb6ebd09db296470f68e95f16abc39bc662efb6a744adc2e0ecf7bdc0",
+    "size": 399,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/FontDxe/FontDxe.inf",
+      "a52sxq/QcomPkg/Drivers/FontDxe/FontDxe.inf",
+      "aston/QcomPkg/Drivers/FontDxe/FontDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/FvUtilsDxe/FvUtilsDxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/FvUtilsDxe/FvUtilsDxe.efi",
+    "sha256": "ad03902306cbd9235df0a4cc109355f2ea2e4f89531042e7f9f048f13f36cd60",
+    "size": 57344,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/FvUtilsDxe/FvUtilsDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/FvUtilsDxe/FvUtilsDxe.inf",
+    "sha256": "e69d85d4b44f1d5abaabf63e468369b9ff007a5046dc9b1ff5b2d8aed8105f46",
+    "size": 403,
+    "upstream_matches": [
+      "a52sxq/QcomPkg/Drivers/FvUtilsDxe/FvUtilsDxe.inf",
+      "aston/QcomPkg/Drivers/FvUtilsDxe/FvUtilsDxe.inf",
+      "dm2q/QcomPkg/Drivers/FvUtilsDxe/FvUtilsDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/GLinkDxe/GLinkDxe.depex",
+    "sha256": "bc412c7f953353ed9727ad256b3f5639b5424b8985f9cb2cd8201dff841b75a5",
+    "size": 18,
+    "upstream_matches": [
+      "a52sxq/QcomPkg/Drivers/GLinkDxe/GLinkDxe.depex",
+      "annibale/QcomPkg/Drivers/GLinkDxe/GLinkDxe.depex",
+      "aston/QcomPkg/Drivers/GLinkDxe/GLinkDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/GLinkDxe/GLinkDxe.efi",
+    "sha256": "3651ce9c3c37007af1e878bc3f1d47d33d86b09a85e98e77da506f64d7358c75",
+    "size": 69632,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/GLinkDxe/GLinkDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/GLinkDxe/GLinkDxe.inf",
+    "sha256": "ea156a867175fa5df399b40ffc939d29ec6f166758ad40b15770e4be5bea9321",
+    "size": 402,
+    "upstream_matches": [
+      "a52sxq/QcomPkg/Drivers/GLinkDxe/GLinkDxe.inf",
+      "aston/QcomPkg/Drivers/GLinkDxe/GLinkDxe.inf",
+      "bale_b/QcomPkg/Drivers/GLinkDxe/GLinkDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/GpiDxe/GpiDxe.depex",
+    "sha256": "8d212b55931b8b7178a06d7d5ff305306299accdbd845743b3c58bdf2e62a45f",
+    "size": 216,
+    "upstream_matches": [
+      "9707f/QcomPkg/Drivers/GpiDxe/GpiDxe.depex",
+      "9707f/QcomPkg/Drivers/HALIOMMUDxe/HALIOMMUDxe.depex",
+      "a52q/QcomPkg/Drivers/GpiDxe/GpiDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/GpiDxe/GpiDxe.efi",
+    "sha256": "bf8caddd14fa28667ca17f6f07af9563f93a6e7efac5bf1c47ae87a6812df328",
+    "size": 73728,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/GpiDxe/GpiDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/GpiDxe/GpiDxe.inf",
+    "sha256": "a83a36611d12e843efcd13eed3f142b0ef15b8dc865872b70211853b6056dfc8",
+    "size": 396,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/GpiDxe/GpiDxe.inf",
+      "a52sxq/QcomPkg/Drivers/GpiDxe/GpiDxe.inf",
+      "aston/QcomPkg/Drivers/GpiDxe/GpiDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/HALIOMMUDxe/HALIOMMUDxe.depex",
+    "sha256": "8d212b55931b8b7178a06d7d5ff305306299accdbd845743b3c58bdf2e62a45f",
+    "size": 216,
+    "upstream_matches": [
+      "9707f/QcomPkg/Drivers/GpiDxe/GpiDxe.depex",
+      "9707f/QcomPkg/Drivers/HALIOMMUDxe/HALIOMMUDxe.depex",
+      "a52q/QcomPkg/Drivers/GpiDxe/GpiDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/HALIOMMUDxe/HALIOMMUDxe.efi",
+    "sha256": "174eee781c8078734ee42f4bed862a403cc6617673f9bc7e94398be8851fa825",
+    "size": 53248,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/HALIOMMUDxe/HALIOMMUDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/HALIOMMUDxe/HALIOMMUDxe.inf",
+    "sha256": "2c83cef09b7dd860f33b70bafb3468d0a89c4be7cb539231a1adb8fa3ebba7f0",
+    "size": 408,
+    "upstream_matches": [
+      "a52sxq/QcomPkg/Drivers/HALIOMMUDxe/HALIOMMUDxe.inf",
+      "aston/QcomPkg/Drivers/HALIOMMUDxe/HALIOMMUDxe.inf",
+      "bale_b/QcomPkg/Drivers/HALIOMMUDxe/HALIOMMUDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/HSUartDxe/HSUartDxe.depex",
+    "sha256": "27f3b12e3a69943637fb27fafde8b7fdc4e5da6798870c4d978634d6f77c1634",
+    "size": 72,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/HSUartDxe/HSUartDxe.depex",
+      "macan/QcomPkg/Drivers/HSUartDxe/HSUartDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/HSUartDxe/HSUartDxe.efi",
+    "sha256": "16a77589793d1ac0a64182bb0ce13393d9fbb45bedf50b8ac6006ae29ec65ea0",
+    "size": 65536,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/HSUartDxe/HSUartDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/HSUartDxe/HSUartDxe.inf",
+    "sha256": "20ec4b20b4b4cac4f65cfcb73bc4a9fdd53b7e87de6a11a040e98c63d10a5e0b",
+    "size": 402,
+    "upstream_matches": [
+      "bale_b/QcomPkg/Drivers/HSUartDxe/HSUartDxe.inf",
+      "infiniti/QcomPkg/Drivers/HSUartDxe/HSUartDxe.inf",
+      "muyu/QcomPkg/Drivers/HSUartDxe/HSUartDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/HWIODxe/HWIODxe.depex",
+    "sha256": "51e48aff95a5c61299f0c6b7550d1e2348078025c313f63c206f4d6f5cf36477",
+    "size": 18,
+    "upstream_matches": [
+      "9707f/QcomPkg/Drivers/CPRDxe/CPRDxe.depex",
+      "9707f/QcomPkg/Drivers/HWIODxe/HWIODxe.depex",
+      "9707f/QcomPkg/Drivers/PILDxe/PILDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/HWIODxe/HWIODxe.efi",
+    "sha256": "3ec72b211a67c89c7c7062e8d97c46ba14440fa98a9610ea9b832a496d099d48",
+    "size": 32768,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/HWIODxe/HWIODxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/HWIODxe/HWIODxe.inf",
+    "sha256": "7f41305f8c7f69516ced2377ebed8ef49121c289e1bb350bfff9648a8efb5ab3",
+    "size": 405,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/HWIODxe/HWIODxe.inf",
+      "a52sxq/QcomPkg/Drivers/HWIODxe/HWIODxe.inf",
+      "aston/QcomPkg/Drivers/HWIODxe/HWIODxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/I2CDxe/I2CDxe.depex",
+    "sha256": "44a8c9f466db74c73b325668a57fabe9fdf08e9eb22604a7cb5bf760ec45e3e5",
+    "size": 90,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/I2CDxe/I2CDxe.depex",
+      "infiniti/QcomPkg/Drivers/QupDxe/QupDxe.depex",
+      "infiniti/QcomPkg/Drivers/SPIDxe/SPIDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/I2CDxe/I2CDxe.efi",
+    "sha256": "fd4b3d114ab48784f09e9e07377cfc74d2867c260f36ec0c8f39ebf1cac42f4f",
+    "size": 122880,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/I2CDxe/I2CDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/I2CDxe/I2CDxe.inf",
+    "sha256": "7e97acfc7c9f68cef66bdc2f336077dcdb06d5555339a020677225509a797e7c",
+    "size": 393,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/I2CDxe/I2CDxe.inf",
+      "a52sxq/QcomPkg/Drivers/I2CDxe/I2CDxe.inf",
+      "aston/QcomPkg/Drivers/I2CDxe/I2CDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/I3CMasterDxe/I3CMasterDxe.depex",
+    "sha256": "c9dc87d9721566ca054ce323d5bc1a1ddd76c6917481772dcb4f135b7362f616",
+    "size": 108,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/I3CMasterDxe/I3CMasterDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/I3CMasterDxe/I3CMasterDxe.efi",
+    "sha256": "8e2530edfeef9eea4b9f1c2bb813f1f82c558d7726a4dbd97fa869440940e2d0",
+    "size": 135168,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/I3CMasterDxe/I3CMasterDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/I3CMasterDxe/I3CMasterDxe.inf",
+    "sha256": "89d01d3c68d7fac6dcda40276e43687e3a59232d06c4c8fa15ba66f827b1fe6f",
+    "size": 411,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/I3CMasterDxe/I3CMasterDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ICBDxe/ICBDxe.depex",
+    "sha256": "c8001e9cea134cf8205ad4167fd0ff3b8dab6ecf325c723158cc6916e4a9b1cf",
+    "size": 54,
+    "upstream_matches": [
+      "annibale/QcomPkg/Drivers/ClockDxe/ClockDxe.depex",
+      "annibale/QcomPkg/Drivers/ICBDxe/ICBDxe.depex",
+      "annibale/QcomPkg/Drivers/VcsDxe/VcsDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ICBDxe/ICBDxe.efi",
+    "sha256": "139678217449b5be2784f7657354a1bf6a4d12e90ba03f2560a24c9774bbccd8",
+    "size": 221184,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/ICBDxe/ICBDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ICBDxe/ICBDxe.inf",
+    "sha256": "001d2e315457a89884957e4912f509d762d9289643aecaac37cfc13e4b28b0b0",
+    "size": 396,
+    "upstream_matches": [
+      "a52sxq/QcomPkg/Drivers/ICBDxe/ICBDxe.inf",
+      "aston/QcomPkg/Drivers/ICBDxe/ICBDxe.inf",
+      "bale_b/QcomPkg/Drivers/ICBDxe/ICBDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/IPCCDxe/IPCCDxe.depex",
+    "sha256": "51e48aff95a5c61299f0c6b7550d1e2348078025c313f63c206f4d6f5cf36477",
+    "size": 18,
+    "upstream_matches": [
+      "9707f/QcomPkg/Drivers/CPRDxe/CPRDxe.depex",
+      "9707f/QcomPkg/Drivers/HWIODxe/HWIODxe.depex",
+      "9707f/QcomPkg/Drivers/PILDxe/PILDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/IPCCDxe/IPCCDxe.efi",
+    "sha256": "97b8497886b17fbd4c08862cd3cbb3abdac1ab5c358bdebd3b4f0945586cfd71",
+    "size": 36864,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/IPCCDxe/IPCCDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/IPCCDxe/IPCCDxe.inf",
+    "sha256": "2d3a8bb5989d0f2151869ab67fbba92ea4a8bce9113d113373f121943d2a09a1",
+    "size": 399,
+    "upstream_matches": [
+      "a52sxq/QcomPkg/Drivers/IPCCDxe/IPCCDxe.inf",
+      "aston/QcomPkg/Drivers/IPCCDxe/IPCCDxe.inf",
+      "bale_b/QcomPkg/Drivers/IPCCDxe/IPCCDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/MailboxDxe/MailboxDxe.depex",
+    "sha256": "51e48aff95a5c61299f0c6b7550d1e2348078025c313f63c206f4d6f5cf36477",
+    "size": 18,
+    "upstream_matches": [
+      "9707f/QcomPkg/Drivers/CPRDxe/CPRDxe.depex",
+      "9707f/QcomPkg/Drivers/HWIODxe/HWIODxe.depex",
+      "9707f/QcomPkg/Drivers/PILDxe/PILDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/MailboxDxe/MailboxDxe.efi",
+    "sha256": "d8532028da5c033e9a552c1d47cfb4015947ddf70fe6284310defb5b345918c4",
+    "size": 45056,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/MailboxDxe/MailboxDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/MailboxDxe/MailboxDxe.inf",
+    "sha256": "4cbe7cc5bee9dd7295168afc51a6d8399a139e64558781d11838a5bcb847f555",
+    "size": 408,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/MailboxDxe/MailboxDxe.inf",
+      "pagani/QcomPkg/Drivers/MailboxDxe/MailboxDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/NpaDxe/NpaDxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/NpaDxe/NpaDxe.efi",
+    "sha256": "c5befd1c868191c2301562c2c98c22f4d39fbcd95d540e3b83c9019b2ec3b14c",
+    "size": 77824,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/NpaDxe/NpaDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/NpaDxe/NpaDxe.inf",
+    "sha256": "6ab0240b235e902aaafd2d179b4ceb9f599744a82a4a5085d1108ab7ab18acdf",
+    "size": 396,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/NpaDxe/NpaDxe.inf",
+      "a52sxq/QcomPkg/Drivers/NpaDxe/NpaDxe.inf",
+      "aston/QcomPkg/Drivers/NpaDxe/NpaDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/OGaugeAuthDxe/OGaugeAuth.efi",
+    "sha256": "30f08ea2da02a63bdf60d47f9b7686301a4c51314e74d38950019af0f7989d4e",
+    "size": 49152,
+    "upstream_matches": [
+      "bale_b/QcomPkg/Drivers/OGaugeAuthDxe/OGaugeAuth.efi",
+      "dodge/QcomPkg/Drivers/OGaugeAuthDxe/OGaugeAuth.efi",
+      "giulia/QcomPkg/Drivers/OGaugeAuthDxe/OGaugeAuth.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/OGaugeAuthDxe/OGaugeAuth.inf",
+    "sha256": "1a7158a8f667bb33c39947895fd8c6d9ced9e5c419623ded79c6e8da2c4cfc69",
+    "size": 316,
+    "upstream_matches": [
+      "aston/QcomPkg/Drivers/OGaugeAuthDxe/OGaugeAuth.inf",
+      "bale_b/QcomPkg/Drivers/OGaugeAuthDxe/OGaugeAuth.inf",
+      "bitra/QcomPkg/Drivers/OGaugeAuthDxe/OGaugeAuth.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/OcdtDxe/OplusProject.depex",
+    "sha256": "51e48aff95a5c61299f0c6b7550d1e2348078025c313f63c206f4d6f5cf36477",
+    "size": 18,
+    "upstream_matches": [
+      "9707f/QcomPkg/Drivers/CPRDxe/CPRDxe.depex",
+      "9707f/QcomPkg/Drivers/HWIODxe/HWIODxe.depex",
+      "9707f/QcomPkg/Drivers/PILDxe/PILDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/OcdtDxe/OplusProject.efi",
+    "sha256": "8823472337a4c9dc1512274a86654e7555826ee0cc85fc3c8ea2d1ac024a27d9",
+    "size": 45056,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/OcdtDxe/OplusProject.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/OcdtDxe/OplusProject.inf",
+    "sha256": "7e5b1b96b5c27e0c92daf4c715dd21072a1e9828ee8dfef8b9a2b8dbad744079",
+    "size": 414,
+    "upstream_matches": [
+      "aston/QcomPkg/Drivers/OcdtDxe/OplusProject.inf",
+      "bale_b/QcomPkg/Drivers/OcdtDxe/OplusProject.inf",
+      "bitra/QcomPkg/Drivers/OcdtDxe/OplusProject.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/OplusExGpio/TLMMExDxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/OplusExGpio/TLMMExDxe.efi",
+    "sha256": "29ef880ce30ece0a086e438c3e3f4bef85cf573afb0846d40fbf694a7987df00",
+    "size": 45056,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/OplusExGpio/TLMMExDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/OplusExGpio/TLMMExDxe.inf",
+    "sha256": "8573a6d06e4ad48307829c15ba39d0e1f504dd9ab4c9263a32adc00d3f3fdf03",
+    "size": 405,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/OplusExGpio/TLMMExDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/OplusOrdumpDxe/OplusOrdump.depex",
+    "sha256": "51e48aff95a5c61299f0c6b7550d1e2348078025c313f63c206f4d6f5cf36477",
+    "size": 18,
+    "upstream_matches": [
+      "9707f/QcomPkg/Drivers/CPRDxe/CPRDxe.depex",
+      "9707f/QcomPkg/Drivers/HWIODxe/HWIODxe.depex",
+      "9707f/QcomPkg/Drivers/PILDxe/PILDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/OplusOrdumpDxe/OplusOrdump.efi",
+    "sha256": "c4c334df1b4b67de8c9bfa726333473d1886990837b9e50ae963e6e2b38deff7",
+    "size": 45056,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/OplusOrdumpDxe/OplusOrdump.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/OplusOrdumpDxe/OplusOrdump.inf",
+    "sha256": "f2aba3b160bc9892e0073e8596a66afa2b3a9ff42b0271c45adcc7f6d0fe2a3d",
+    "size": 411,
+    "upstream_matches": [
+      "aston/QcomPkg/Drivers/OplusOrdumpDxe/OplusOrdump.inf",
+      "infiniti/QcomPkg/Drivers/OplusOrdumpDxe/OplusOrdump.inf",
+      "pagani/QcomPkg/Drivers/OplusOrdumpDxe/OplusOrdump.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/OplusS4ResetDxe/OplusS4ResetDxe.efi",
+    "sha256": "532cb5b0e89554e3e7ccc2deac4642affade045ccf0f980e2379cb696e6745dd",
+    "size": 28672,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/OplusS4ResetDxe/OplusS4ResetDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/OplusS4ResetDxe/OplusS4ResetDxe.inf",
+    "sha256": "6265a9da632c686fd2e6ff9e482f06457c773828712658aa8bb7a101e117af74",
+    "size": 323,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/OplusS4ResetDxe/OplusS4ResetDxe.inf",
+      "pagani/QcomPkg/Drivers/OplusS4ResetDxe/OplusS4ResetDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/OplusSecurityDxe/OplusSecurityDxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/OplusSecurityDxe/OplusSecurityDxe.efi",
+    "sha256": "6160305c04a251428efa90a6dc228fc1158f131c230f3c30632cf00088d95819",
+    "size": 32768,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/OplusSecurityDxe/OplusSecurityDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/OplusSecurityDxe/OplusSecurityDxe.inf",
+    "sha256": "b1185b517d5e804862841b6779b6c85ec5fc57237b159d4e06849f3f3c20062a",
+    "size": 426,
+    "upstream_matches": [
+      "aston/QcomPkg/Drivers/OplusSecurityDxe/OplusSecurityDxe.inf",
+      "bale_b/QcomPkg/Drivers/OplusSecurityDxe/OplusSecurityDxe.inf",
+      "infiniti/QcomPkg/Drivers/OplusSecurityDxe/OplusSecurityDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/OplusStorageDxe/OplusStorageDxe.depex",
+    "sha256": "8d212b55931b8b7178a06d7d5ff305306299accdbd845743b3c58bdf2e62a45f",
+    "size": 216,
+    "upstream_matches": [
+      "9707f/QcomPkg/Drivers/GpiDxe/GpiDxe.depex",
+      "9707f/QcomPkg/Drivers/HALIOMMUDxe/HALIOMMUDxe.depex",
+      "a52q/QcomPkg/Drivers/GpiDxe/GpiDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/OplusStorageDxe/OplusStorageDxe.efi",
+    "sha256": "86b72df9a6c2162c1401ebf0cc89a9543c1c39cd4403a7edf58833273ee5210a",
+    "size": 61440,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/OplusStorageDxe/OplusStorageDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/OplusStorageDxe/OplusStorageDxe.inf",
+    "sha256": "b3849bd540e9c3c6abfdb4d6d5b431b96d7e5e1e9a6f59df237a931421c8787a",
+    "size": 423,
+    "upstream_matches": [
+      "bale_b/QcomPkg/Drivers/OplusStorageDxe/OplusStorageDxe.inf",
+      "infiniti/QcomPkg/Drivers/OplusStorageDxe/OplusStorageDxe.inf",
+      "pagani/QcomPkg/Drivers/OplusStorageDxe/OplusStorageDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/OplusVibrDxe/OplusVibrDxe.depex",
+    "sha256": "7df6503416506bf7cbecc9cc3148f446490a80d2a8c40a2c9f1baa3e425e3bde",
+    "size": 18,
+    "upstream_matches": [
+      "aston/QcomPkg/Drivers/OplusVibrDxe/OplusVibrDxe.depex",
+      "bale_b/QcomPkg/Drivers/OplusVibrDxe/OplusVibrDxe.depex",
+      "dodge/QcomPkg/Drivers/OplusVibrDxe/OplusVibrDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/OplusVibrDxe/OplusVibrDxe.efi",
+    "sha256": "9424a9d10600a0f9c2b9df06a4f456f1591274e3fa8be57380341e3004de708b",
+    "size": 45056,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/OplusVibrDxe/OplusVibrDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/OplusVibrDxe/OplusVibrDxe.inf",
+    "sha256": "ec9253c858a345671fd78a706fa03221b644af04237bd7e8a87db9d3b6a2b150",
+    "size": 414,
+    "upstream_matches": [
+      "aston/QcomPkg/Drivers/OplusVibrDxe/OplusVibrDxe.inf",
+      "bale_b/QcomPkg/Drivers/OplusVibrDxe/OplusVibrDxe.inf",
+      "infiniti/QcomPkg/Drivers/OplusVibrDxe/OplusVibrDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PILDxe/PILDxe.depex",
+    "sha256": "51e48aff95a5c61299f0c6b7550d1e2348078025c313f63c206f4d6f5cf36477",
+    "size": 18,
+    "upstream_matches": [
+      "9707f/QcomPkg/Drivers/CPRDxe/CPRDxe.depex",
+      "9707f/QcomPkg/Drivers/HWIODxe/HWIODxe.depex",
+      "9707f/QcomPkg/Drivers/PILDxe/PILDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PILDxe/PILDxe.efi",
+    "sha256": "896a39122755188cdce2c182ed5f23805316691b0d1cd0266b1c982f8fd56365",
+    "size": 122880,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/PILDxe/PILDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PILDxe/PILDxe.inf",
+    "sha256": "cbaed12cb456b431e5c5bf2b8581d4a96c8cf226ee47abf66ffd9a4096c77e08",
+    "size": 396,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/PILDxe/PILDxe.inf",
+      "a52sxq/QcomPkg/Drivers/PILDxe/PILDxe.inf",
+      "aston/QcomPkg/Drivers/PILDxe/PILDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PILProxyDxe/PILProxyDxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PILProxyDxe/PILProxyDxe.efi",
+    "sha256": "3e3ea0ee86836cb2e6f13e8187e8007ad329586ee6896f7d04e36198cbae8aec",
+    "size": 40960,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/PILProxyDxe/PILProxyDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PILProxyDxe/PILProxyDxe.inf",
+    "sha256": "a9346697611df1a6ba82fed2aa5e63584cc7953724e1cce9ba02f92ceb819831",
+    "size": 411,
+    "upstream_matches": [
+      "a52sxq/QcomPkg/Drivers/PILProxyDxe/PILProxyDxe.inf",
+      "aston/QcomPkg/Drivers/PILProxyDxe/PILProxyDxe.inf",
+      "bale_b/QcomPkg/Drivers/PILProxyDxe/PILProxyDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ParserDxe/ParserEnhancedDxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ParserDxe/ParserEnhancedDxe.efi",
+    "sha256": "979714fe55086b8eb79259a232693d1aca024f2de88250c9f7962522ed62f93a",
+    "size": 32768,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/ParserDxe/ParserEnhancedDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ParserDxe/ParserEnhancedDxe.inf",
+    "sha256": "9167b428f6142b33b5d11dd82624de4da1792511b289da9be8c8349f30baa5d6",
+    "size": 421,
+    "upstream_matches": [
+      "bale_b/QcomPkg/Drivers/ParserDxe/ParserEnhancedDxe.inf",
+      "infiniti/QcomPkg/Drivers/ParserDxe/ParserEnhancedDxe.inf",
+      "muyu/QcomPkg/Drivers/ParserDxe/ParserEnhancedDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/Phoenix2_0Dxe/Phoenix2_0Dxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/Phoenix2_0Dxe/Phoenix2_0Dxe.efi",
+    "sha256": "ec89064ce2f845d7174b0234e8448dfe6fa6fa5cf9c9631a062fc1b3cf576c0d",
+    "size": 45056,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/Phoenix2_0Dxe/Phoenix2_0Dxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/Phoenix2_0Dxe/Phoenix2_0Dxe.inf",
+    "sha256": "7c18f5bbbeb8992f5a826f7ece4176a4d6168d6708453cd9cc052655e0f3ce1d",
+    "size": 417,
+    "upstream_matches": [
+      "aston/QcomPkg/Drivers/Phoenix2_0Dxe/Phoenix2_0Dxe.inf",
+      "bale_b/QcomPkg/Drivers/Phoenix2_0Dxe/Phoenix2_0Dxe.inf",
+      "infiniti/QcomPkg/Drivers/Phoenix2_0Dxe/Phoenix2_0Dxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PhoenixDxe/PhoenixDxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PhoenixDxe/PhoenixDxe.efi",
+    "sha256": "eb6617c117f7a8498474c08110d80aa21a2c1d0fe9fe1076ceac57b59747464b",
+    "size": 73728,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/PhoenixDxe/PhoenixDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PhoenixDxe/PhoenixDxe.inf",
+    "sha256": "4fc5983c5b3ebc5252bf8a7c5fec232cb1c2d8e5c40f04a206084ab22ad5644b",
+    "size": 408,
+    "upstream_matches": [
+      "aston/QcomPkg/Drivers/PhoenixDxe/PhoenixDxe.inf",
+      "bale_b/QcomPkg/Drivers/PhoenixDxe/PhoenixDxe.inf",
+      "bitra/QcomPkg/Drivers/PhoenixDxe/PhoenixDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PlatformInfoDxe/PlatformInfoDxe.depex",
+    "sha256": "51e48aff95a5c61299f0c6b7550d1e2348078025c313f63c206f4d6f5cf36477",
+    "size": 18,
+    "upstream_matches": [
+      "9707f/QcomPkg/Drivers/CPRDxe/CPRDxe.depex",
+      "9707f/QcomPkg/Drivers/HWIODxe/HWIODxe.depex",
+      "9707f/QcomPkg/Drivers/PILDxe/PILDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PlatformInfoDxe/PlatformInfoDxe.efi",
+    "sha256": "44b6507c516d01f2b9ce730968565931e5a0da6c529e5518a96878faf8ae7873",
+    "size": 32768,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/PlatformInfoDxe/PlatformInfoDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PlatformInfoDxe/PlatformInfoDxe.inf",
+    "sha256": "54238e28cafc2294f86a2390ce0da519733f96672ff5bc286d3ccf3414802814",
+    "size": 429,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/PlatformInfoDxe/PlatformInfoDxe.inf",
+      "a52sxq/QcomPkg/Drivers/PlatformInfoDxe/PlatformInfoDxe.inf",
+      "aston/QcomPkg/Drivers/PlatformInfoDxe/PlatformInfoDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PmicDxe/PmicDxeLa.depex",
+    "sha256": "cc8bf8c154c79716116873363269e8c00e6f3da84e78552a0cadb22dd16050d7",
+    "size": 54,
+    "upstream_matches": [
+      "annibale/QcomPkg/Drivers/PmicDxe/PmicDxeLa.depex",
+      "bale_b/QcomPkg/Drivers/PmicDxe/PmicDxeLa.depex",
+      "dodge/QcomPkg/Drivers/PmicDxe/PmicDxeLa.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PmicDxe/PmicDxeLa.efi",
+    "sha256": "c5efb1e1e9a2b49af6e887012e763a6dbfc0e0b910ac5ab393f97bebc9ffa952",
+    "size": 303104,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/PmicDxe/PmicDxeLa.patched.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PmicDxe/PmicDxeLa.inf",
+    "sha256": "d2218b1b9e6b2ca07d7cbcd28f29e3be39a9862f47ac7bddae5f0646528ce9da",
+    "size": 411,
+    "upstream_matches": [
+      "aston/QcomPkg/Drivers/PmicDxe/PmicDxeLa.inf",
+      "bale_b/QcomPkg/Drivers/PmicDxe/PmicDxeLa.inf",
+      "dm2q/QcomPkg/Drivers/PmicDxe/PmicDxeLa.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PmicDxe/PmicDxeLa.patched.efi",
+    "sha256": "c5efb1e1e9a2b49af6e887012e763a6dbfc0e0b910ac5ab393f97bebc9ffa952",
+    "size": 303104,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/PmicDxe/PmicDxeLa.patched.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PmicGlinkDxe/PmicGlinkSoccpDxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PmicGlinkDxe/PmicGlinkSoccpDxe.efi",
+    "sha256": "b31f74971734e4d44560f23a0da5820bc4823c75774235f3c37a2d7b9a928328",
+    "size": 57344,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/PmicGlinkDxe/PmicGlinkSoccpDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PmicGlinkDxe/PmicGlinkSoccpDxe.inf",
+    "sha256": "ea86a0386f74c3e37e5ed15aca0cd262b7e86f40b942285c17581d04497dc80c",
+    "size": 424,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/PmicGlinkDxe/PmicGlinkSoccpDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PsStateDxe/PsStateDxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PsStateDxe/PsStateDxe.efi",
+    "sha256": "dfb03081eda98d552972f318d47a6e0fe38467c34c0a1b0903476af0da93898f",
+    "size": 28672,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/PsStateDxe/PsStateDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PsStateDxe/PsStateDxe.inf",
+    "sha256": "d218c29f9f5a1625d555690b0fdfcfecf153a83aba65c56c7db9d9e29c2b6ae0",
+    "size": 408,
+    "upstream_matches": [
+      "aston/QcomPkg/Drivers/PsStateDxe/PsStateDxe.inf",
+      "bale_b/QcomPkg/Drivers/PsStateDxe/PsStateDxe.inf",
+      "dm2q/QcomPkg/Drivers/PsStateDxe/PsStateDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PwrUtilsDxe/PwrUtilsDxe.depex",
+    "sha256": "69f6f40457ed7a884f56e034cb84bf53bf4cb3210cc31839e0d1a5d86b460a94",
+    "size": 18,
+    "upstream_matches": [
+      "annibale/QcomPkg/Drivers/PwrUtilsDxe/PwrUtilsDxe.depex",
+      "annibale/QcomPkg/Drivers/RNGDxe/RngDxe.depex",
+      "annibale/QcomPkg/Drivers/RscDxe/RscDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PwrUtilsDxe/PwrUtilsDxe.efi",
+    "sha256": "de29ba0c7ec3268585ed34bc2beea684f813c593a637ce29733886430fde0a1b",
+    "size": 32768,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/PwrUtilsDxe/PwrUtilsDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/PwrUtilsDxe/PwrUtilsDxe.inf",
+    "sha256": "3fe90a3c5bef12a1d1117b5fc9c11eddfe1afe94e404e089e44fcb2cb2cca66a",
+    "size": 411,
+    "upstream_matches": [
+      "a52sxq/QcomPkg/Drivers/PwrUtilsDxe/PwrUtilsDxe.inf",
+      "aston/QcomPkg/Drivers/PwrUtilsDxe/PwrUtilsDxe.inf",
+      "bale_b/QcomPkg/Drivers/PwrUtilsDxe/PwrUtilsDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/QRKSDxe/QRKSDxe.efi",
+    "sha256": "fe51d8486c87993bba4d953a1a8cfe81a0dc3d50d2ea6918fb72d6cc2dead630",
+    "size": 36864,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/QRKSDxe/QRKSDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/QRKSDxe/QRKSDxe.inf",
+    "sha256": "e85466bcbea02ca61b9d2dc968b7068bbbcd07e9f1410fee12324c533e83e027",
+    "size": 307,
+    "upstream_matches": [
+      "aston/QcomPkg/Drivers/QRKSDxe/QRKSDxe.inf",
+      "bale_b/QcomPkg/Drivers/QRKSDxe/QRKSDxe.inf",
+      "dm2q/QcomPkg/Drivers/QRKSDxe/QRKSDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/QcomBds/QcomBds.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/QcomBds/QcomBds.efi",
+    "sha256": "a5b5328723102ee629700596c85b81fe20c6d9e71f232898a069ae1f3421d5a6",
+    "size": 110592,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/QcomBds/QcomBds.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/QcomBds/QcomBds.inf",
+    "sha256": "dd5db941890f03724c7fd68ca1e5f29413f18aeec8069e7e2f7c513dd2151916",
+    "size": 399,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/QcomBds/QcomBds.inf",
+      "a52sxq/QcomPkg/Drivers/QcomBds/QcomBds.inf",
+      "aston/QcomPkg/Drivers/QcomBds/QcomBds.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/QcomChargerDxe/QcomChargerDxeLAGio.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/QcomChargerDxe/QcomChargerDxeLAGio.efi",
+    "sha256": "e9ff49da183631d1b7422d5e46e1350f20db22194d5019bce56e51bd22d134c1",
+    "size": 143360,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/QcomChargerDxe/QcomChargerDxeLAGio.patched.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/QcomChargerDxe/QcomChargerDxeLAGio.inf",
+    "sha256": "7921d48ec465fa56a89f3e0bbe5af3f5415f9e0880854a9d647689596a4da1ef",
+    "size": 440,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/QcomChargerDxe/QcomChargerDxeLAGio.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/QcomChargerDxe/QcomChargerDxeLAGio.patched.efi",
+    "sha256": "e9ff49da183631d1b7422d5e46e1350f20db22194d5019bce56e51bd22d134c1",
+    "size": 143360,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/QcomChargerDxe/QcomChargerDxeLAGio.patched.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/QcomScmiDxe/QcomScmiDxe.depex",
+    "sha256": "d1660507ac319059fc3628541b8edb079275f1fa7a9492789617a781a01151a6",
+    "size": 18,
+    "upstream_matches": [
+      "annibale/QcomPkg/Drivers/QcomScmiDxe/QcomScmiDxe.depex",
+      "dodge/QcomPkg/Drivers/QcomScmiDxe/QcomScmiDxe.depex",
+      "infiniti/QcomPkg/Drivers/QcomScmiDxe/QcomScmiDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/QcomScmiDxe/QcomScmiDxe.efi",
+    "sha256": "dda4488dbbc0ff1899b7ddc3c8d63d84ba7905325b2605fdb5c08be058e3a7a2",
+    "size": 40960,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/QcomScmiDxe/QcomScmiDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/QcomScmiDxe/QcomScmiDxe.inf",
+    "sha256": "8fd8ee3f1467c116be4ea92d8600e7410d172fa52185d2379a8e15241c2aac76",
+    "size": 411,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/QcomScmiDxe/QcomScmiDxe.inf",
+      "pagani/QcomPkg/Drivers/QcomScmiDxe/QcomScmiDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/QcomWDogDxe/QcomWDogDxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/QcomWDogDxe/QcomWDogDxe.efi",
+    "sha256": "6a20fb87429f21aafd2b4927a2ebbfecae3d74aac50501a3e4546bd0ee0465f8",
+    "size": 28672,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/QcomWDogDxe/QcomWDogDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/QcomWDogDxe/QcomWDogDxe.inf",
+    "sha256": "54c36f98a581d558f8d0d0562509c5906bdb88696a58088c081e5324743528c1",
+    "size": 411,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/QcomWDogDxe/QcomWDogDxe.inf",
+      "a52sxq/QcomPkg/Drivers/QcomWDogDxe/QcomWDogDxe.inf",
+      "aston/QcomPkg/Drivers/QcomWDogDxe/QcomWDogDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/QupDxe/QupDxe.depex",
+    "sha256": "44a8c9f466db74c73b325668a57fabe9fdf08e9eb22604a7cb5bf760ec45e3e5",
+    "size": 90,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/I2CDxe/I2CDxe.depex",
+      "infiniti/QcomPkg/Drivers/QupDxe/QupDxe.depex",
+      "infiniti/QcomPkg/Drivers/SPIDxe/SPIDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/QupDxe/QupDxe.efi",
+    "sha256": "909a29d3d5be6b0c4d91cf0df66dfd19a97468ee48261f7a6d0abe4c7f967c88",
+    "size": 32768,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/QupDxe/QupDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/QupDxe/QupDxe.inf",
+    "sha256": "d7172424895fba9f04676bf8d5941ead153677c86c061be18d767a70af7d4ca1",
+    "size": 393,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/QupDxe/QupDxe.inf",
+      "pagani/QcomPkg/Drivers/QupDxe/QupDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/RNGDxe/RngDxe.depex",
+    "sha256": "69f6f40457ed7a884f56e034cb84bf53bf4cb3210cc31839e0d1a5d86b460a94",
+    "size": 18,
+    "upstream_matches": [
+      "annibale/QcomPkg/Drivers/PwrUtilsDxe/PwrUtilsDxe.depex",
+      "annibale/QcomPkg/Drivers/RNGDxe/RngDxe.depex",
+      "annibale/QcomPkg/Drivers/RscDxe/RscDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/RNGDxe/RngDxe.efi",
+    "sha256": "76c73725197fae0f006ec70892eb0f55aeeb2bb371b5a3735b93f328121c5adc",
+    "size": 36864,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/RNGDxe/RngDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/RNGDxe/RngDxe.inf",
+    "sha256": "31279880041bd50087e2ab4fdd34fa202b65ef0e4eb7e2032050ee185e3f5bd4",
+    "size": 396,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/RNGDxe/RngDxe.inf",
+      "pagani/QcomPkg/Drivers/RNGDxe/RngDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ResetRuntimeDxe/ResetRuntimeDxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ResetRuntimeDxe/ResetRuntimeDxe.efi",
+    "sha256": "bffc0195d232837d85e554a1a376d8b62a204f9386f72ba9fcf6d1b4c880d28b",
+    "size": 36864,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/ResetRuntimeDxe/ResetRuntimeDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ResetRuntimeDxe/ResetRuntimeDxe.inf",
+    "sha256": "881d397a01b6bd70732a85625909319072f00ad66151c094bc55de014cccaf70",
+    "size": 423,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/ResetRuntimeDxe/ResetRuntimeDxe.inf",
+      "a52sxq/QcomPkg/Drivers/ResetRuntimeDxe/ResetRuntimeDxe.inf",
+      "aston/QcomPkg/Drivers/ResetRuntimeDxe/ResetRuntimeDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/RmVmDxe/RmVmDxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/RmVmDxe/RmVmDxe.efi",
+    "sha256": "b9b9f867e15a090695c837bba0df7708206bbe60c7e13efb7851cce4bcb60299",
+    "size": 57344,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/RmVmDxe/RmVmDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/RmVmDxe/RmVmDxe.inf",
+    "sha256": "a4ea92175539eb0079351aeff77c0dd99bea42378df2415db0eded41aea049b1",
+    "size": 399,
+    "upstream_matches": [
+      "bale_b/QcomPkg/Drivers/RmVmDxe/RmVmDxe.inf",
+      "infiniti/QcomPkg/Drivers/RmVmDxe/RmVmDxe.inf",
+      "muyu/QcomPkg/Drivers/RmVmDxe/RmVmDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/RpmhDxe/RpmhDxe.depex",
+    "sha256": "4222f37e19a4b252aa185240a267b613ee5e464543e682f222a21fea7c0ed2a2",
+    "size": 36,
+    "upstream_matches": [
+      "annibale/QcomPkg/Drivers/CPRDxe/CPRDxe.depex",
+      "annibale/QcomPkg/Drivers/RpmhDxe/RpmhDxe.depex",
+      "bale_b/QcomPkg/Drivers/CPRDxe/CPRDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/RpmhDxe/RpmhDxe.efi",
+    "sha256": "e1d79a25a4045bfdd2d8b6abe39496f1e1215dd9de2dd4a4052542dc27c2137d",
+    "size": 65536,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/RpmhDxe/RpmhDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/RpmhDxe/RpmhDxe.inf",
+    "sha256": "5b7a67db98d3ba21bf2f378c3c76b8ed72417ce9901c691a314271805e75f738",
+    "size": 399,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/RpmhDxe/RpmhDxe.inf",
+      "a52sxq/QcomPkg/Drivers/RpmhDxe/RpmhDxe.inf",
+      "aston/QcomPkg/Drivers/RpmhDxe/RpmhDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/RscDxe/RscDxe.depex",
+    "sha256": "69f6f40457ed7a884f56e034cb84bf53bf4cb3210cc31839e0d1a5d86b460a94",
+    "size": 18,
+    "upstream_matches": [
+      "annibale/QcomPkg/Drivers/PwrUtilsDxe/PwrUtilsDxe.depex",
+      "annibale/QcomPkg/Drivers/RNGDxe/RngDxe.depex",
+      "annibale/QcomPkg/Drivers/RscDxe/RscDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/RscDxe/RscDxe.efi",
+    "sha256": "bb58e62bc34aa22da68203ed08d03eb0ebd8f7de89890b010a1b638ec26eda58",
+    "size": 36864,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/RscDxe/RscDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/RscDxe/RscDxe.inf",
+    "sha256": "33852d234adadf523bf217a53ecb53afc467e741dc0fefbf5ccc9f2eb93b6289",
+    "size": 396,
+    "upstream_matches": [
+      "aston/QcomPkg/Drivers/RscDxe/RscDxe.inf",
+      "bale_b/QcomPkg/Drivers/RscDxe/RscDxe.inf",
+      "dm2q/QcomPkg/Drivers/RscDxe/RscDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/SPIDxe/SPIDxe.depex",
+    "sha256": "44a8c9f466db74c73b325668a57fabe9fdf08e9eb22604a7cb5bf760ec45e3e5",
+    "size": 90,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/I2CDxe/I2CDxe.depex",
+      "infiniti/QcomPkg/Drivers/QupDxe/QupDxe.depex",
+      "infiniti/QcomPkg/Drivers/SPIDxe/SPIDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/SPIDxe/SPIDxe.efi",
+    "sha256": "5fb964a1cd32efd0f0bcb2dd05df40233138259568a117d29337acc999dca1a7",
+    "size": 118784,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/SPIDxe/SPIDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/SPIDxe/SPIDxe.inf",
+    "sha256": "75500939c244dc7c9dcd8cb218154528ab42e5eda44138bf70fe77a83178daaf",
+    "size": 393,
+    "upstream_matches": [
+      "a52sxq/QcomPkg/Drivers/SPIDxe/SPIDxe.inf",
+      "aston/QcomPkg/Drivers/SPIDxe/SPIDxe.inf",
+      "bale_b/QcomPkg/Drivers/SPIDxe/SPIDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/SPMIDxe/SPMIDxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/SPMIDxe/SPMIDxe.efi",
+    "sha256": "a838169c260a73c8a0038dac89270fcb50cc61192149a2876463250cdf0076f8",
+    "size": 57344,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/SPMIDxe/SPMIDxe.patched.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/SPMIDxe/SPMIDxe.inf",
+    "sha256": "29600128da2505f6be6b2874d16b0971d320df9ff6532306489b4dc78f66ceea",
+    "size": 404,
+    "upstream_matches": [
+      "aston/QcomPkg/Drivers/SPMIDxe/SPMIDxe.inf",
+      "bale_b/QcomPkg/Drivers/SPMIDxe/SPMIDxe.inf",
+      "dm2q/QcomPkg/Drivers/SPMIDxe/SPMIDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/SPMIDxe/SPMIDxe.patched.efi",
+    "sha256": "a838169c260a73c8a0038dac89270fcb50cc61192149a2876463250cdf0076f8",
+    "size": 57344,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/SPMIDxe/SPMIDxe.patched.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/SPSSDxe/SPSSDxe.depex",
+    "sha256": "51e48aff95a5c61299f0c6b7550d1e2348078025c313f63c206f4d6f5cf36477",
+    "size": 18,
+    "upstream_matches": [
+      "9707f/QcomPkg/Drivers/CPRDxe/CPRDxe.depex",
+      "9707f/QcomPkg/Drivers/HWIODxe/HWIODxe.depex",
+      "9707f/QcomPkg/Drivers/PILDxe/PILDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/SPSSDxe/SPSSDxe.efi",
+    "sha256": "bb47919a148cb502a3a985273c5ab7310d3cfe3ae9816639eac398c16d0e5f6b",
+    "size": 45056,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/SPSSDxe/SPSSDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/SPSSDxe/SPSSDxe.inf",
+    "sha256": "d6a5379a216d11b0e0ea29a2d82cdeda6947bfeb9596604629d0975693ebb2a4",
+    "size": 399,
+    "upstream_matches": [
+      "aston/QcomPkg/Drivers/SPSSDxe/SPSSDxe.inf",
+      "bale_b/QcomPkg/Drivers/SPSSDxe/SPSSDxe.inf",
+      "bitra/QcomPkg/Drivers/SPSSDxe/SPSSDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/SdccDxe/SdccDxe.depex",
+    "sha256": "96d3dcd80ec35498b71c6d2f1d0e08aab0caa5c6d8b8903d3f1d469636544f1f",
+    "size": 36,
+    "upstream_matches": [
+      "9707f/QcomPkg/Drivers/SdccDxe/SdccDxe.depex",
+      "a52q/QcomPkg/Drivers/SdccDxe/SdccDxe.depex",
+      "a52sxq/QcomPkg/Drivers/SdccDxe/SdccDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/SdccDxe/SdccDxe.efi",
+    "sha256": "f6538f0943a01bbda663e8809950f73f9c9e582ebb832d7548bd33136b928064",
+    "size": 135168,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/SdccDxe/SdccDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/SdccDxe/SdccDxe.inf",
+    "sha256": "5037af8f4726c6178722af726e88b2c4bf912d6f56f13028b68c53228be2a8d9",
+    "size": 399,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/SdccDxe/SdccDxe.inf",
+      "a52sxq/QcomPkg/Drivers/SdccDxe/SdccDxe.inf",
+      "aston/QcomPkg/Drivers/SdccDxe/SdccDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/SecRSADxe/SecRSADxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/SecRSADxe/SecRSADxe.efi",
+    "sha256": "c15ec81bc1285d1945b796b53dbe6fd99c15f22176150e91c11c8f5beefc797d",
+    "size": 40960,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/SecRSADxe/SecRSADxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/SecRSADxe/SecRSADxe.inf",
+    "sha256": "518ab36efacc2c9c697deb26b011c42fd46d421c3eed2e6ccb5fb537352ebeb1",
+    "size": 405,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/SecRSADxe/SecRSADxe.inf",
+      "pagani/QcomPkg/Drivers/SecRSADxe/SecRSADxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ShmBridgeDxe/ShmBridgeDxeLA.efi",
+    "sha256": "24fec84abbd460e5e86f8615610e94af0ca63f3caaeea3183503360a0b0d4bf3",
+    "size": 36864,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/ShmBridgeDxe/ShmBridgeDxeLA.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ShmBridgeDxe/ShmBridgeDxeLA.inf",
+    "sha256": "12259a1af9a5408e738712f372a84d5a17d0529391ced6dd49c0d5ea6a03307c",
+    "size": 321,
+    "upstream_matches": [
+      "aston/QcomPkg/Drivers/ShmBridgeDxe/ShmBridgeDxeLA.inf",
+      "bale_b/QcomPkg/Drivers/ShmBridgeDxe/ShmBridgeDxeLA.inf",
+      "dm2q/QcomPkg/Drivers/ShmBridgeDxe/ShmBridgeDxeLA.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/SimpleTextInOutSerialDxe/SimpleTextInOutSerial.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/SimpleTextInOutSerialDxe/SimpleTextInOutSerial.efi",
+    "sha256": "7690d61b81b2cda8f62525de01308e876e24d6a2d19c5ce97fdfc3d3f323001c",
+    "size": 32768,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/SimpleTextInOutSerialDxe/SimpleTextInOutSerial.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/SimpleTextInOutSerialDxe/SimpleTextInOutSerial.inf",
+    "sha256": "3ff1063e5e6d601933254e25a9cdc45ccbf23ce6e09a09c2bd5873837c058fdc",
+    "size": 441,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/SimpleTextInOutSerialDxe/SimpleTextInOutSerial.inf",
+      "a52sxq/QcomPkg/Drivers/SimpleTextInOutSerialDxe/SimpleTextInOutSerial.inf",
+      "aston/QcomPkg/Drivers/SimpleTextInOutSerialDxe/SimpleTextInOutSerial.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/SmemDxe/SmemDxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/SmemDxe/SmemDxe.efi",
+    "sha256": "4b8174dcf3599934c7b8e80a0d875f67f94009b90f3ceb722b6ea480cd0c4d97",
+    "size": 40960,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/SmemDxe/SmemDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/SmemDxe/SmemDxe.inf",
+    "sha256": "2e1e4c718e5f6e5d05230a6ede4541d58b5a22212dddb7fc1c4c85cad3b073e2",
+    "size": 399,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/SmemDxe/SmemDxe.inf",
+      "a52sxq/QcomPkg/Drivers/SmemDxe/SmemDxe.inf",
+      "aston/QcomPkg/Drivers/SmemDxe/SmemDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/TLMMDxe/TLMMDxe.depex",
+    "sha256": "51e48aff95a5c61299f0c6b7550d1e2348078025c313f63c206f4d6f5cf36477",
+    "size": 18,
+    "upstream_matches": [
+      "9707f/QcomPkg/Drivers/CPRDxe/CPRDxe.depex",
+      "9707f/QcomPkg/Drivers/HWIODxe/HWIODxe.depex",
+      "9707f/QcomPkg/Drivers/PILDxe/PILDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/TLMMDxe/TLMMDxe.efi",
+    "sha256": "3c3a3400e6d46f523d3a6d41aa70c1185454b2e899d901fcbb55c396a0ea163a",
+    "size": 49152,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/TLMMDxe/TLMMDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/TLMMDxe/TLMMDxe.inf",
+    "sha256": "6f52f1f66428f018abc4397bc747cc3c70967f8e941e1edf7682169b666067a7",
+    "size": 399,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/TLMMDxe/TLMMDxe.inf",
+      "a52sxq/QcomPkg/Drivers/TLMMDxe/TLMMDxe.inf",
+      "aston/QcomPkg/Drivers/TLMMDxe/TLMMDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/TsensDxe/TsensDxe.depex",
+    "sha256": "51e48aff95a5c61299f0c6b7550d1e2348078025c313f63c206f4d6f5cf36477",
+    "size": 18,
+    "upstream_matches": [
+      "9707f/QcomPkg/Drivers/CPRDxe/CPRDxe.depex",
+      "9707f/QcomPkg/Drivers/HWIODxe/HWIODxe.depex",
+      "9707f/QcomPkg/Drivers/PILDxe/PILDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/TsensDxe/TsensDxe.efi",
+    "sha256": "efbab847a8b09734efd188149c4210fbbe78657fae1a75487fffb69bdcd89161",
+    "size": 40960,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/TsensDxe/TsensDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/TsensDxe/TsensDxe.inf",
+    "sha256": "fa2d0fe519856cfdb5b8b2ec522daeac7b351c837de36f27fff8b549fdc05048",
+    "size": 402,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/TsensDxe/TsensDxe.inf",
+      "a52sxq/QcomPkg/Drivers/TsensDxe/TsensDxe.inf",
+      "aston/QcomPkg/Drivers/TsensDxe/TsensDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/TzDxe/ScmDxeCompat.efi",
+    "sha256": "61f34bd9ebca3aaf7838041f757613b5daf544a8fa4ce64e63aa377286e4507d",
+    "size": 57344,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/TzDxe/ScmDxeCompat.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/TzDxe/ScmDxeCompat.inf",
+    "sha256": "0b535d2cc766ba55d3e59f430eb56c304cf9ab8e4d7e9c82d975c44c3dfb7523",
+    "size": 317,
+    "upstream_matches": [
+      "bale_b/QcomPkg/Drivers/TzDxe/ScmDxeCompat.inf",
+      "infiniti/QcomPkg/Drivers/TzDxe/ScmDxeCompat.inf",
+      "muyu/QcomPkg/Drivers/TzDxe/ScmDxeCompat.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/TzDxe/TzDxeLA.efi",
+    "sha256": "61f34bd9ebca3aaf7838041f757613b5daf544a8fa4ce64e63aa377286e4507d",
+    "size": 57344,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/TzDxe/ScmDxeCompat.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/TzDxe/TzDxeLA.inf",
+    "sha256": "32ea0895d8df51df896935317e8690ada3fbec69d9ea404ff6f68533abb7528c",
+    "size": 315,
+    "upstream_matches": [
+      "a52sxq/QcomPkg/Drivers/TzDxe/TzDxeLA.inf",
+      "aston/QcomPkg/Drivers/TzDxe/TzDxeLA.inf",
+      "bale_b/QcomPkg/Drivers/TzDxe/TzDxeLA.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/TzDxe/TzDxeLA.patched.efi",
+    "sha256": "dd97fe9dba3f6b5ad1adcaf3ea38992a30f6b9856d3f7f1eb08bf10840b73735",
+    "size": 69632,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/TzDxe/TzDxeLA.patched.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UCDxe/UCDxe.depex",
+    "sha256": "69f6f40457ed7a884f56e034cb84bf53bf4cb3210cc31839e0d1a5d86b460a94",
+    "size": 18,
+    "upstream_matches": [
+      "annibale/QcomPkg/Drivers/PwrUtilsDxe/PwrUtilsDxe.depex",
+      "annibale/QcomPkg/Drivers/RNGDxe/RngDxe.depex",
+      "annibale/QcomPkg/Drivers/RscDxe/RscDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UCDxe/UCDxe.efi",
+    "sha256": "01bcf6ac925609464b5499f8989024fa4d97e00e357e7c1a5be6ea2724c3d5d7",
+    "size": 192512,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/UCDxe/UCDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UCDxe/UCDxe.inf",
+    "sha256": "90d6a563cb014ff22f496b83bf6531bd480e1e7295b0c97544f26b02044d0235",
+    "size": 393,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/UCDxe/UCDxe.inf",
+      "pagani/QcomPkg/Drivers/UCDxe/UCDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UFSDxe/UFSDxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UFSDxe/UFSDxe.efi",
+    "sha256": "b612b2e0c4e6c0dece4f29ec1437b6d27da159a4d05f03173db8e2e779b747cb",
+    "size": 163840,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/UFSDxe/UFSDxe.patched.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UFSDxe/UFSDxe.inf",
+    "sha256": "e85f9d6cda996dc4dbb1fff0a6e39e8a7e03784b367287ca040b148c586cc16c",
+    "size": 404,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/UFSDxe/UFSDxe.inf",
+      "a52sxq/QcomPkg/Drivers/UFSDxe/UFSDxe.inf",
+      "aston/QcomPkg/Drivers/UFSDxe/UFSDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UFSDxe/UFSDxe.patched.efi",
+    "sha256": "b612b2e0c4e6c0dece4f29ec1437b6d27da159a4d05f03173db8e2e779b747cb",
+    "size": 163840,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/UFSDxe/UFSDxe.patched.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ULogDxe/ULogDxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ULogDxe/ULogDxe.efi",
+    "sha256": "ade94d98fa040a1ffb28f3fdd624d10c0e731943357fd17d595b4fd653275236",
+    "size": 77824,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/ULogDxe/ULogDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/ULogDxe/ULogDxe.inf",
+    "sha256": "01658b6c15a27340952a36a1f94f4ffcfa52a5bc8a070f87aa405f890504f6a7",
+    "size": 399,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/ULogDxe/ULogDxe.inf",
+      "a52sxq/QcomPkg/Drivers/ULogDxe/ULogDxe.inf",
+      "aston/QcomPkg/Drivers/ULogDxe/ULogDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbBusDxe/UsbBusDxe.efi",
+    "sha256": "86bd099a6047b2c3635655e0a356da0311c089860e5538502d301b2446daa1e7",
+    "size": 48128,
+    "upstream_matches": []
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbBusDxe/UsbBusDxe.inf",
+    "sha256": "60705da9665afec32aa88bbb9de825431bcef191b63fa3f72b3c5f49afcee995",
+    "size": 311,
+    "upstream_matches": [
+      "a52sxq/QcomPkg/Drivers/UsbBusDxe/UsbBusDxe.inf",
+      "aston/QcomPkg/Drivers/UsbBusDxe/UsbBusDxe.inf",
+      "bitra/QcomPkg/Drivers/UsbBusDxe/UsbBusDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbConfigDxe/UsbConfigDxe.depex",
+    "sha256": "1f7bfcea6bbf6b396d64df59146c19d4c315845edda71ae13ff92aa2bc6e2695",
+    "size": 90,
+    "upstream_matches": [
+      "annibale/QcomPkg/Drivers/UsbConfigDxe/UsbConfigDxe.depex",
+      "dodge/QcomPkg/Drivers/UsbConfigDxe/UsbConfigDxe.depex",
+      "infiniti/QcomPkg/Drivers/UsbConfigDxe/UsbConfigDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbConfigDxe/UsbConfigDxe.efi",
+    "sha256": "5e6f99a2d7529f6693a2433922a36d4ecc452a15126abeaa4e05537ed9e37ae3",
+    "size": 94208,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/UsbConfigDxe/UsbConfigDxe.patched.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbConfigDxe/UsbConfigDxe.inf",
+    "sha256": "8f66a098377b4c0902f878c957e5f28dd43170d80773eb961a526037edb96564",
+    "size": 422,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/UsbConfigDxe/UsbConfigDxe.inf",
+      "a52sxq/QcomPkg/Drivers/UsbConfigDxe/UsbConfigDxe.inf",
+      "aston/QcomPkg/Drivers/UsbConfigDxe/UsbConfigDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbConfigDxe/UsbConfigDxe.patched.efi",
+    "sha256": "5e6f99a2d7529f6693a2433922a36d4ecc452a15126abeaa4e05537ed9e37ae3",
+    "size": 94208,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/UsbConfigDxe/UsbConfigDxe.patched.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbDeviceDxe/UsbDeviceDxe.depex",
+    "sha256": "445084b65f55991565be20b692e489f28006a91c3d0a050eae2a8eebdf12f563",
+    "size": 18,
+    "upstream_matches": [
+      "9707f/QcomPkg/Drivers/DALSYSDxe/DALSYSDxe.depex",
+      "9707f/QcomPkg/Drivers/UFSDxe/UFSDxe.depex",
+      "a52q/QcomPkg/Drivers/DALSYSDxe/DALSYSDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbDeviceDxe/UsbDeviceDxe.efi",
+    "sha256": "5d08d0e457bae38ecf8b3b61fec2a17c45aa27b1295d3da57046189c0d86f94c",
+    "size": 53248,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/UsbDeviceDxe/UsbDeviceDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbDeviceDxe/UsbDeviceDxe.inf",
+    "sha256": "7298b63c7a26ac6edca31404f01a94a85d5c0a98f52a2ab865a58e425b35938e",
+    "size": 414,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/UsbDeviceDxe/UsbDeviceDxe.inf",
+      "a52sxq/QcomPkg/Drivers/UsbDeviceDxe/UsbDeviceDxe.inf",
+      "aston/QcomPkg/Drivers/UsbDeviceDxe/UsbDeviceDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbGblFastbootDxe/UsbGblFastbootDxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbGblFastbootDxe/UsbGblFastbootDxe.efi",
+    "sha256": "f340c1db71b05c8961ccf355cca2c0282761f8d097ddd5b660bc63a5f94c3f72",
+    "size": 36864,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/UsbGblFastbootDxe/UsbGblFastbootDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbGblFastbootDxe/UsbGblFastbootDxe.inf",
+    "sha256": "53276edf80fd68f69bef24e5da82eb99d2420de24140b10474c887c5645854ff",
+    "size": 429,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/UsbGblFastbootDxe/UsbGblFastbootDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbInitDxe/UsbInitDxe.depex",
+    "sha256": "ac68645cdf6f47e6d36bb1293073c8d53a413ddda8e9f4c4503e6cc299ec8e79",
+    "size": 18,
+    "upstream_matches": [
+      "9707f/QcomPkg/Drivers/UsbInitDxe/UsbInitDxe.depex",
+      "a52sxq/QcomPkg/Drivers/UsbInitDxe/UsbInitDxe.depex",
+      "alioth/QcomPkg/Drivers/UsbInitDxe/UsbInitDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbInitDxe/UsbInitDxe.efi",
+    "sha256": "ca85857695c698171bb2c748e77d08324f067b65a1918143baf985b0dbd4e0e8",
+    "size": 32768,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/UsbInitDxe/UsbInitDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbInitDxe/UsbInitDxe.inf",
+    "sha256": "6544bee914a312e31f2554ec5eb01158c3dead25d313241b2103ad0867d24a49",
+    "size": 408,
+    "upstream_matches": [
+      "a52sxq/QcomPkg/Drivers/UsbInitDxe/UsbInitDxe.inf",
+      "aston/QcomPkg/Drivers/UsbInitDxe/UsbInitDxe.inf",
+      "bale_b/QcomPkg/Drivers/UsbInitDxe/UsbInitDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbKbDxe/UsbKbDxe.efi",
+    "sha256": "2007124ded480c29ce901d692691ea37aa451e1af1d1bd99efcf4b50b81d4cbd",
+    "size": 34304,
+    "upstream_matches": []
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbKbDxe/UsbKbDxe.inf",
+    "sha256": "63924d4cdfa552f0d94eb84018aed27913557a2b29e6b63082437620e76ceaf1",
+    "size": 309,
+    "upstream_matches": [
+      "a52sxq/QcomPkg/Drivers/UsbKbDxe/UsbKbDxe.inf",
+      "aston/QcomPkg/Drivers/UsbKbDxe/UsbKbDxe.inf",
+      "bitra/QcomPkg/Drivers/UsbKbDxe/UsbKbDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbMassStorageDxe/UsbMassStorageDxe.efi",
+    "sha256": "24336ff9683d3d6702ae44f8c68c46c81a259b9b7fc89e574247be930ce8f394",
+    "size": 33280,
+    "upstream_matches": []
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbMassStorageDxe/UsbMassStorageDxe.inf",
+    "sha256": "fd278fba5bd980fdcee0039fc1eff17f46c217662dab0316fb820cca98c4b07f",
+    "size": 327,
+    "upstream_matches": [
+      "a52sxq/QcomPkg/Drivers/UsbMassStorageDxe/UsbMassStorageDxe.inf",
+      "aston/QcomPkg/Drivers/UsbMassStorageDxe/UsbMassStorageDxe.inf",
+      "bitra/QcomPkg/Drivers/UsbMassStorageDxe/UsbMassStorageDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbMsdDxe/UsbMsdDxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbMsdDxe/UsbMsdDxe.efi",
+    "sha256": "eff892f22ff0a76e9ff8a2dbb62ed963e9fb14e09ce9b6666bb225a81a580396",
+    "size": 61440,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/UsbMsdDxe/UsbMsdDxe.patched.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbMsdDxe/UsbMsdDxe.inf",
+    "sha256": "262d0e37c4ac6af574807cef9006d77088be20993136a44557f073acd56cdc19",
+    "size": 413,
+    "upstream_matches": [
+      "a52sxq/QcomPkg/Drivers/UsbMsdDxe/UsbMsdDxe.inf",
+      "aston/QcomPkg/Drivers/UsbMsdDxe/UsbMsdDxe.inf",
+      "bale_b/QcomPkg/Drivers/UsbMsdDxe/UsbMsdDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbMsdDxe/UsbMsdDxe.patched.efi",
+    "sha256": "eff892f22ff0a76e9ff8a2dbb62ed963e9fb14e09ce9b6666bb225a81a580396",
+    "size": 61440,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/UsbMsdDxe/UsbMsdDxe.patched.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbPwrCtrlDxe/UsbPwrCtrlDxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbPwrCtrlDxe/UsbPwrCtrlDxe.efi",
+    "sha256": "466981c5e3f6f1335261b2c2ac6c4fb55b610ee523a4d71b47d99215d2ddaa84",
+    "size": 40960,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/UsbPwrCtrlDxe/UsbPwrCtrlDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbPwrCtrlDxe/UsbPwrCtrlDxe.inf",
+    "sha256": "365b8ac7be58b039d5a96989a48fe836e348ff2fa5d8fa1f7c2ea61a42ec3149",
+    "size": 417,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/UsbPwrCtrlDxe/UsbPwrCtrlDxe.inf",
+      "a52sxq/QcomPkg/Drivers/UsbPwrCtrlDxe/UsbPwrCtrlDxe.inf",
+      "aston/QcomPkg/Drivers/UsbPwrCtrlDxe/UsbPwrCtrlDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbfnDwc3Dxe/UsbfnDwc3Dxe.depex",
+    "sha256": "bd158853534205e5f34d9372e87432344040de5a5d5c256b3856fb74332e9bf6",
+    "size": 270,
+    "upstream_matches": [
+      "a52sxq/QcomPkg/Drivers/UsbfnDwc3Dxe/UsbfnDwc3Dxe.depex",
+      "annibale/QcomPkg/Drivers/UsbfnDwc3Dxe/UsbfnDwc3Dxe.depex",
+      "b4q/QcomPkg/Drivers/UsbfnDwc3Dxe/UsbfnDwc3Dxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbfnDwc3Dxe/UsbfnDwc3Dxe.efi",
+    "sha256": "d00e906a33cd7e2adc25c9e0ea3aad2a030ca3b8231f031f35afcac1697775f5",
+    "size": 98304,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/UsbfnDwc3Dxe/UsbfnDwc3Dxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/UsbfnDwc3Dxe/UsbfnDwc3Dxe.inf",
+    "sha256": "22c96fd072f08cc0bb6813fbd9bffac41fb19961e05273278101807f32c8c20e",
+    "size": 414,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/UsbfnDwc3Dxe/UsbfnDwc3Dxe.inf",
+      "a52sxq/QcomPkg/Drivers/UsbfnDwc3Dxe/UsbfnDwc3Dxe.inf",
+      "aston/QcomPkg/Drivers/UsbfnDwc3Dxe/UsbfnDwc3Dxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/VariableDxe/VariableDxe.depex",
+    "sha256": "557c754d26e2667287367a856ea5fcd584f35ab796d24a6a875d1648a4637d23",
+    "size": 2,
+    "upstream_matches": [
+      "9707f/ArmPkg/Drivers/CpuDxe/CpuDxe.depex",
+      "9707f/EmbeddedPkg/MetronomeDxe/MetronomeDxe.depex",
+      "9707f/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/VariableDxe/VariableDxe.efi",
+    "sha256": "e0dd88b2e1b904b9c57491029117a19e10f990b8a3fda29403c9759328f577d5",
+    "size": 61440,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/VariableDxe/VariableDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/VariableDxe/VariableDxe.inf",
+    "sha256": "8842cdb04fdff6d641193d142edb3be9ddb2c1c1fcc86cfcf37ee6614754d212",
+    "size": 411,
+    "upstream_matches": [
+      "a52q/QcomPkg/Drivers/VariableDxe/VariableDxe.inf",
+      "a52sxq/QcomPkg/Drivers/VariableDxe/VariableDxe.inf",
+      "aston/QcomPkg/Drivers/VariableDxe/VariableDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/VcsDxe/VcsDxe.depex",
+    "sha256": "c8001e9cea134cf8205ad4167fd0ff3b8dab6ecf325c723158cc6916e4a9b1cf",
+    "size": 54,
+    "upstream_matches": [
+      "annibale/QcomPkg/Drivers/ClockDxe/ClockDxe.depex",
+      "annibale/QcomPkg/Drivers/ICBDxe/ICBDxe.depex",
+      "annibale/QcomPkg/Drivers/VcsDxe/VcsDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/VcsDxe/VcsDxe.efi",
+    "sha256": "4ade062a099eaee8b9eee13ec24eb7819ded1942a347df3da74afffa2b2e3d28",
+    "size": 69632,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/VcsDxe/VcsDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/VcsDxe/VcsDxe.inf",
+    "sha256": "e84302214b5c6631e3951f48efd8c6649a663bf2eb2350c2579509828c54bf93",
+    "size": 396,
+    "upstream_matches": [
+      "a52sxq/QcomPkg/Drivers/VcsDxe/VcsDxe.inf",
+      "aston/QcomPkg/Drivers/VcsDxe/VcsDxe.inf",
+      "bale_b/QcomPkg/Drivers/VcsDxe/VcsDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/VerifiedBootDxe/VerifiedBootDxe.efi",
+    "sha256": "4b2cb8f7ee98c5ef61cefae0400e47e1d2eeabf4983be610039d500c77ff5085",
+    "size": 61440,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/VerifiedBootDxe/VerifiedBootDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/VerifiedBootDxe/VerifiedBootDxe.inf",
+    "sha256": "4035081eac12c358835ad03ed73e433f697e298a7b3b1c72d5bd378838ee4018",
+    "size": 323,
+    "upstream_matches": [
+      "aston/QcomPkg/Drivers/VerifiedBootDxe/VerifiedBootDxe.inf",
+      "bale_b/QcomPkg/Drivers/VerifiedBootDxe/VerifiedBootDxe.inf",
+      "dm2q/QcomPkg/Drivers/VerifiedBootDxe/VerifiedBootDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/XhciDxe/XhciDxe.efi",
+    "sha256": "6ab51d38941cbbb649cd0a0129855e4bbc940e8abebffa5b0f61968c2c8e1060",
+    "size": 90112,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/XhciDxe/XhciDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/XhciDxe/XhciDxe.inf",
+    "sha256": "64563766a4fc58c29329d9544163f19ae45a318e4bf4ea4b2328d1b4ddd82376",
+    "size": 307,
+    "upstream_matches": [
+      "a52sxq/QcomPkg/Drivers/XhciDxe/XhciDxe.inf",
+      "aston/QcomPkg/Drivers/XhciDxe/XhciDxe.inf",
+      "bitra/QcomPkg/Drivers/XhciDxe/XhciDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/XhciPciEmulationDxe/XhciPciEmulationDxe.depex",
+    "sha256": "6e3f02198c4fa8c831cff254f5913e1cb682ffa122066be8813f9937cd9b64d2",
+    "size": 234,
+    "upstream_matches": [
+      "9707f/QcomPkg/Drivers/XhciPciEmulationDxe/XhciPciEmulationDxe.depex",
+      "a52sxq/QcomPkg/Drivers/XhciPciEmulationDxe/XhciPciEmulationDxe.depex",
+      "alioth/QcomPkg/Drivers/XhciPciEmulationDxe/XhciPciEmulationDxe.depex"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/XhciPciEmulationDxe/XhciPciEmulationDxe.efi",
+    "sha256": "07257473278548274c4f1720f2ccf6dc1300ad16ffc708173900d42124ce163f",
+    "size": 40960,
+    "upstream_matches": [
+      "infiniti/QcomPkg/Drivers/XhciPciEmulationDxe/XhciPciEmulationDxe.efi"
+    ]
+  },
+  {
+    "path": "QcomPkg/Drivers/XhciPciEmulationDxe/XhciPciEmulationDxe.inf",
+    "sha256": "24a599eae242bed15028d7264e22d6721479dbe04dd59e0630d84bfdd1205c66",
+    "size": 432,
+    "upstream_matches": [
+      "a52sxq/QcomPkg/Drivers/XhciPciEmulationDxe/XhciPciEmulationDxe.inf",
+      "aston/QcomPkg/Drivers/XhciPciEmulationDxe/XhciPciEmulationDxe.inf",
+      "bitra/QcomPkg/Drivers/XhciPciEmulationDxe/XhciPciEmulationDxe.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/XBLCore/XBLCore.inf",
+    "sha256": "94672c08e0cda72d2fee6358815d268fc79fb4dfe6de14e0044b6cfb0646570c",
+    "size": 317,
+    "upstream_matches": [
+      "a52q/QcomPkg/XBLCore/XBLCore.inf",
+      "a52sxq/QcomPkg/XBLCore/XBLCore.inf",
+      "aston/QcomPkg/XBLCore/XBLCore.inf"
+    ]
+  },
+  {
+    "path": "QcomPkg/XBLCore/XBLCore.raw",
+    "sha256": "d60d6cd6fbd560cb387c6294aeab1e088bc4dbf4b85b8341702120cfd5fcde32",
+    "size": 3888,
+    "upstream_matches": [
+      "9707f/QcomPkg/XBLCore/XBLCore.raw",
+      "a52q/QcomPkg/XBLCore/XBLCore.raw",
+      "a52sxq/QcomPkg/XBLCore/XBLCore.raw"
+    ]
+  },
+  {
+    "path": "QcomPkg/XBLCore/XBLCore.te",
+    "sha256": "d01d56f79d3c423f159b536f661433394df75581d5525a8302a21de38022d2a3",
+    "size": 336072,
+    "upstream_matches": [
+      "infiniti/QcomPkg/XBLCore/XBLCore.te"
+    ]
+  },
+  {
+    "path": "README.md",
+    "sha256": "b6d5892f8882b553a5105e370f30f22a20014a384ae2394eb3c28d95734a708f",
+    "size": 2165,
+    "upstream_matches": [
+      "infiniti/README.md"
+    ]
+  },
+  {
+    "path": "RawFiles/BDS_Menu.cfg",
+    "sha256": "b68f17fb0357c31c5ccb37a1abc90815982a6681193a943b1e27460a0197221d",
+    "size": 2947,
+    "upstream_matches": [
+      "annibale/RawFiles/BDS_Menu.cfg",
+      "dodge/RawFiles/BDS_Menu.cfg",
+      "infiniti/RawFiles/BDS_Menu.cfg"
+    ]
+  },
+  {
+    "path": "RawFiles/PanelSimConfig.csv",
+    "sha256": "d289945069738411e3108b984ee9824e251832ddfafc9a62eb278c2946b724e4",
+    "size": 4527,
+    "upstream_matches": [
+      "infiniti/RawFiles/PanelSimConfig.csv",
+      "macan/RawFiles/PanelSimConfig.csv"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_AA601_P_7_A0020_dsc_cmd.xml",
+    "sha256": "8405381efca3946e79dc79dbe7925cb0fc5bc0d222eb939001a159741b487d7c",
+    "size": 9850,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_AA601_P_7_A0020_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_AC140_S_3_A0014_dsc_cmd.xml",
+    "sha256": "2f10cf84b0c665528408a98ac94d61ea3e8ae1be27b65ddfe84a2f2946f0ded9",
+    "size": 12654,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_AC140_S_3_A0014_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_AC180_P_3_A0020_dsc_cmd.xml",
+    "sha256": "9bc0021b87be62849239509f2283c3e66246ac73efd39b7c5c84dd30d02a7ea6",
+    "size": 3913,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_AC180_P_3_A0020_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_AC306_P_1_A0002_dsc_cmd.xml",
+    "sha256": "ea47c774b7159e4b1fe6b37ec37a1d55e901862ed08855d280df08a3fd57469d",
+    "size": 3883,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_AC306_P_1_A0002_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_AC306_S_3_A0020_dsc_cmd.xml",
+    "sha256": "0c1e9add77806ad7deb139d85c6fb477ece919ed9cdd435d74c77d940645f63c",
+    "size": 3570,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_AC306_S_3_A0020_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_AD296_P_3_A0020_dsc_cmd.xml",
+    "sha256": "a910d18c4b26421322b90fce81c9260b144b50cd5da005f205fb2251173a8f2c",
+    "size": 7641,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_AD296_P_3_A0020_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_AD296_P_3_A0020_dsc_cmd_evt.xml",
+    "sha256": "38bdad84c190f65f8b77a6a47ab5643befdf24322b9a8dc49accb5689cf6add0",
+    "size": 7531,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_AD296_P_3_A0020_dsc_cmd_evt.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_AE084_P_3_A0033_dsc_cmd.xml",
+    "sha256": "f2046eaefe89287787a78c63f8d5d4c2faa780c9ede01cbaaa3266346a50b996",
+    "size": 11021,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_AE084_P_3_A0033_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_AE084_P_3_A0033_dsc_cmd_dvt02.xml",
+    "sha256": "2a2759d4d740b702a7ed4c709c96c65e4222e43653221dbeed28948a96f000cc",
+    "size": 7879,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_AE084_P_3_A0033_dsc_cmd_dvt02.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_AE084_P_3_A0033_dsc_cmd_dvt03.xml",
+    "sha256": "9127bcf7565d4b4288f3a15843950632dbae4cf4790f0babf83d052e93245232",
+    "size": 7891,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_AE084_P_3_A0033_dsc_cmd_dvt03.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_AE084_P_7_A0020_dsc_cmd.xml",
+    "sha256": "7c562dae806857a1694460fd3a57d9b60466d4a09725d6dc9b0d5058a4fa22cf",
+    "size": 4788,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_AE084_P_7_A0020_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_Samsung_Esync.xml",
+    "sha256": "0fb3a3c67808397cff3f23d62262e973ce9368a9c4af5ff1f62d8e59d5aea690",
+    "size": 5333,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_Samsung_Esync.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_Samsung_Esync_Mrr.xml",
+    "sha256": "43efe57c730998b27460a79fed1c36525b6a0a7af5c1eaeda03e418c01156781",
+    "size": 5337,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_Samsung_Esync_Mrr.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_boe_amoled_fhd_dsc_cmd.xml",
+    "sha256": "ef479f6d5c9ba77573fc220d3af97464584b6c5f94c29fdfecdb9729502820c9",
+    "size": 2971,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_boe_amoled_fhd_dsc_cmd.xml",
+      "aston/RawFiles/Panel_boe_amoled_fhd_dsc_cmd.xml",
+      "b4q/RawFiles/Panel_boe_amoled_fhd_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_boe_amoled_wqhd_dsc_cmd.xml",
+    "sha256": "72b3b76be7a5a3f72e2f73f276e655744a16d5609b85ffe0e0da4b4482931f69",
+    "size": 3043,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_boe_amoled_wqhd_dsc_cmd.xml",
+      "aston/RawFiles/Panel_boe_amoled_wqhd_dsc_cmd.xml",
+      "b4q/RawFiles/Panel_boe_amoled_wqhd_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_boe_amoled_wqhd_dsc_vid.xml",
+    "sha256": "8419fee454bf6f3d51e19ef7be59dc4ae2e97cade4344694702cee550953829e",
+    "size": 2899,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_boe_amoled_wqhd_dsc_vid.xml",
+      "aston/RawFiles/Panel_boe_amoled_wqhd_dsc_vid.xml",
+      "b4q/RawFiles/Panel_boe_amoled_wqhd_dsc_vid.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_nt36860_wqhd_dsc_cmd.xml",
+    "sha256": "053331ced3e3e92da8b8357d12084fa7bb81c2c525d5bc6528108696756468d9",
+    "size": 4432,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_nt36860_wqhd_dsc_cmd.xml",
+      "aston/RawFiles/Panel_nt36860_wqhd_dsc_cmd.xml",
+      "b4q/RawFiles/Panel_nt36860_wqhd_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_nt36860_wqhd_dsc_vid.xml",
+    "sha256": "3067d24617d067e55f28ec5e6deeca5d539407b5235f6764e561cf8d76f22935",
+    "size": 4411,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_nt36860_wqhd_dsc_vid.xml",
+      "aston/RawFiles/Panel_nt36860_wqhd_dsc_vid.xml",
+      "b4q/RawFiles/Panel_nt36860_wqhd_dsc_vid.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_nt37801_10bit_wqhd_plus_dsc_cmd.xml",
+    "sha256": "96b7576118837adbd230633392613ff49f6322a5b93eb108c12781a7c661ba78",
+    "size": 3265,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_nt37801_10bit_wqhd_plus_dsc_cmd.xml",
+      "dodge/RawFiles/Panel_nt37801_10bit_wqhd_plus_dsc_cmd.xml",
+      "infiniti/RawFiles/Panel_nt37801_10bit_wqhd_plus_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_nt37801_10bit_wqhd_plus_dsc_vid.xml",
+    "sha256": "8135f941e671cb2cc5db6b696c6f1705548d0d9841bf9f3070b2c7e72022e0fd",
+    "size": 3180,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_nt37801_10bit_wqhd_plus_dsc_vid.xml",
+      "dodge/RawFiles/Panel_nt37801_10bit_wqhd_plus_dsc_vid.xml",
+      "infiniti/RawFiles/Panel_nt37801_10bit_wqhd_plus_dsc_vid.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_nt37801_120hz_fhd_plus_dsc_cmd.xml",
+    "sha256": "03b6f15171543543c153c58759cd8faa88a327d93ecf592dbf4b7904868174a0",
+    "size": 3348,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_nt37801_120hz_fhd_plus_dsc_cmd.xml",
+      "dodge/RawFiles/Panel_nt37801_120hz_fhd_plus_dsc_cmd.xml",
+      "infiniti/RawFiles/Panel_nt37801_120hz_fhd_plus_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_cmd.xml",
+    "sha256": "5af4b7cbd12d387cbe3fc546f206cc4690d7cae21ef3641cd14f5ebe168f2236",
+    "size": 3286,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_cmd.xml",
+      "macan/RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_cmd_cphy.xml",
+    "sha256": "01beb51c8fcb30a88bbb4ded3171465e40295e74cf4f1c97b98bb01142f24c2d",
+    "size": 3291,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_cmd_cphy.xml",
+      "macan/RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_cmd_cphy.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_cmd_cphy_demura.xml",
+    "sha256": "5d97fb0fe11155ad2c8332f13d8c260d431ea9a1ecc550d7fcae609eb0ccf36e",
+    "size": 3356,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_cmd_cphy_demura.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_cmd_cphy_spr.xml",
+    "sha256": "292f16341bd27a4429adf0940f56741294ecef31e322d251fccc477ea79090de",
+    "size": 3411,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_cmd_cphy_spr.xml",
+      "macan/RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_cmd_cphy_spr.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_cmd_demura.xml",
+    "sha256": "a1e029473267db507aff8715a5b13ebb5c0ca75fffd0e57b94a2ec7e1c41c283",
+    "size": 3274,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_cmd_demura.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_cmd_demura_nspr.xml",
+    "sha256": "f9533d8c98596f1b7e274353d000d56ff3e71f49dca6b87c18e894fdcc8b91d1",
+    "size": 3535,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_cmd_demura_nspr.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_cmd_spr.xml",
+    "sha256": "6872983a870e2570e0368c4ed1c6b23689734402d0bc6d64ce97bf60b5832c7c",
+    "size": 3352,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_cmd_spr.xml",
+      "macan/RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_cmd_spr.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_vid.xml",
+    "sha256": "6c72534a8b87f14e8eba66b06ccdcd1e57cc84fb87d247059399e0336febc63d",
+    "size": 3269,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_vid.xml",
+      "macan/RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_vid.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_vid_cphy.xml",
+    "sha256": "eb7bcbf2121d3ad50a1f05ae582d5b94c3643801e0ee8d8df6b335ecd3915fa8",
+    "size": 3236,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_vid_cphy.xml",
+      "macan/RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_vid_cphy.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_vid_cphy_demura.xml",
+    "sha256": "178b45f97b0abefdd01c1b17b7f6ff9c74e04adb2a0d723360b18b6e33027c37",
+    "size": 3301,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_vid_cphy_demura.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_vid_cphy_spr.xml",
+    "sha256": "96dd5e83f38b02e8f9e0168cbc5017095e41dead7a25b25cf5b6eb46e30321a0",
+    "size": 3402,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_vid_cphy_spr.xml",
+      "macan/RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_vid_cphy_spr.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_vid_demura.xml",
+    "sha256": "94a38360af149af7db7dab9bd0b84517194159540d788f46415faf2bd8add799",
+    "size": 3257,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_vid_demura.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_vid_demura_nspr.xml",
+    "sha256": "23006da78a32f944deaad5dea2b20feccced185d83b8decdfb73f75ded088a62",
+    "size": 3518,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_vid_demura_nspr.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_vid_spr.xml",
+    "sha256": "a5af6a67a9d6b5341d028797142965254143f5a8272499c861c437f3a7992078",
+    "size": 3375,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_vid_spr.xml",
+      "macan/RawFiles/Panel_nt37801_120hz_wqhd_plus_dsc_vid_spr.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_nt37802_120hz_vhm_dsc_vid.xml",
+    "sha256": "42ca1d4325928d1cd49303ee9b2df6f47901aa6fe5523937e902c5cc9f58359a",
+    "size": 6059,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_nt37802_120hz_vhm_dsc_vid.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_r66451_120hz_fhd_plus_dsc_cmd.xml",
+    "sha256": "590f2a03e2ba0a4c5cb552f899e8df9190599133f15eb0bc65accd7794548153",
+    "size": 3800,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_r66451_120hz_fhd_plus_dsc_cmd.xml",
+      "aston/RawFiles/Panel_r66451_120hz_fhd_plus_dsc_cmd.xml",
+      "b4q/RawFiles/Panel_r66451_120hz_fhd_plus_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_r66451_120hz_fhd_plus_dsc_cmd_demura.xml",
+    "sha256": "b97623267acd028cfd6edbbc2b17208df6ba6b617b97f658ca5a8b81731c41e6",
+    "size": 3964,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_r66451_120hz_fhd_plus_dsc_cmd_demura.xml",
+      "aston/RawFiles/Panel_r66451_120hz_fhd_plus_dsc_cmd_demura.xml",
+      "b4q/RawFiles/Panel_r66451_120hz_fhd_plus_dsc_cmd_demura.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_r66451_120hz_fhd_plus_dsc_cmd_hdk.xml",
+    "sha256": "8fa1651ade08c01665a0a6aa107acbd039336315b8852992182fc4b7b8d607a3",
+    "size": 3808,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_r66451_120hz_fhd_plus_dsc_cmd_hdk.xml",
+      "aston/RawFiles/Panel_r66451_120hz_fhd_plus_dsc_cmd_hdk.xml",
+      "b4q/RawFiles/Panel_r66451_120hz_fhd_plus_dsc_cmd_hdk.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_r66451_120hz_fhd_plus_dsc_vid.xml",
+    "sha256": "eec1f54b31977830ac5401aa55903f578d32d8906e09e7762f6970aa54fc82a5",
+    "size": 3312,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_r66451_120hz_fhd_plus_dsc_vid.xml",
+      "aston/RawFiles/Panel_r66451_120hz_fhd_plus_dsc_vid.xml",
+      "b4q/RawFiles/Panel_r66451_120hz_fhd_plus_dsc_vid.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_r66451_144hz_fhd_plus_dsc_cmd_cphy.xml",
+    "sha256": "4f9ff7b58433e0d2b5fc29776f9952f2667dfc2d0728b45cb89df1436c590140",
+    "size": 3780,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_r66451_144hz_fhd_plus_dsc_cmd_cphy.xml",
+      "aston/RawFiles/Panel_r66451_144hz_fhd_plus_dsc_cmd_cphy.xml",
+      "b5q/RawFiles/Panel_r66451_144hz_fhd_plus_dsc_cmd_cphy.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_r66451_144hz_fhd_plus_dsc_vid_cphy.xml",
+    "sha256": "fc9bba76029ac56f490468155c2ec007bd167ea906e686af6f187cefb9f39033",
+    "size": 3829,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_r66451_144hz_fhd_plus_dsc_vid_cphy.xml",
+      "aston/RawFiles/Panel_r66451_144hz_fhd_plus_dsc_vid_cphy.xml",
+      "b4q/RawFiles/Panel_r66451_144hz_fhd_plus_dsc_vid_cphy.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_r66451_60hz_fhd_plus_dsc_cmd.xml",
+    "sha256": "9a01febe9c77d62a81d44e8cb9632c157fb0612adb4bdd34b2a34b992641c450",
+    "size": 3129,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_r66451_60hz_fhd_plus_dsc_cmd.xml",
+      "aston/RawFiles/Panel_r66451_60hz_fhd_plus_dsc_cmd.xml",
+      "b5q/RawFiles/Panel_r66451_60hz_fhd_plus_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_r66451_60hz_fhd_plus_dsc_vid.xml",
+    "sha256": "637bea0f03210b19020875f25aca226035e9c8ecc18f50fc4e75650ded898fc7",
+    "size": 2747,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_r66451_60hz_fhd_plus_dsc_vid.xml",
+      "aston/RawFiles/Panel_r66451_60hz_fhd_plus_dsc_vid.xml",
+      "b4q/RawFiles/Panel_r66451_60hz_fhd_plus_dsc_vid.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_rumi_cwb_vga_dsc_vid.xml",
+    "sha256": "ded37cb27c3d56a5107e8fa896b6f9f751ad57b66daca180dfc0fdff75582582",
+    "size": 2007,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_rumi_cwb_vga_dsc_vid.xml",
+      "bale_b/RawFiles/Panel_rumi_cwb_vga_dsc_vid.xml",
+      "dodge/RawFiles/Panel_rumi_cwb_vga_dsc_vid.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_sec_nt37801_120hz_wqhd_plus_dsc_cmd.xml",
+    "sha256": "99fa8e0557d132de166500e1b30cfdfc2b1333081083c425c262cd7943c08514",
+    "size": 3114,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_sec_nt37801_120hz_wqhd_plus_dsc_cmd.xml",
+      "dodge/RawFiles/Panel_sec_nt37801_120hz_wqhd_plus_dsc_cmd.xml",
+      "infiniti/RawFiles/Panel_sec_nt37801_120hz_wqhd_plus_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_sec_nt37801_120hz_wqhd_plus_dsc_vid.xml",
+    "sha256": "293ca4a9a5526a00b99807bdec7e39fc18ce3d8d254a5cc1c77dd00081411462",
+    "size": 3097,
+    "upstream_matches": [
+      "dodge/RawFiles/Panel_sec_nt37801_120hz_wqhd_plus_dsc_vid.xml",
+      "infiniti/RawFiles/Panel_sec_nt37801_120hz_wqhd_plus_dsc_vid.xml",
+      "macan/RawFiles/Panel_sec_nt37801_120hz_wqhd_plus_dsc_vid.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_sec_vtdr6130_144hz_fhd_plus_dsc_cmd_rfi.xml",
+    "sha256": "b7a89a03c97892f0f2f2209e4d3e60a75226452d2bf44bfd3bcd46645db04efe",
+    "size": 3822,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_sec_vtdr6130_144hz_fhd_plus_dsc_cmd_rfi.xml",
+      "dodge/RawFiles/Panel_sec_vtdr6130_144hz_fhd_plus_dsc_cmd_rfi.xml",
+      "giulia/RawFiles/Panel_sec_vtdr6130_144hz_fhd_plus_dsc_cmd_rfi.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_sec_vtdr6130_144hz_fhd_plus_dsc_vid_rfi.xml",
+    "sha256": "87c551b4556c4a5dee68626f55025f9c6de948c2886c4050ea556b08caff30dd",
+    "size": 3429,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_sec_vtdr6130_144hz_fhd_plus_dsc_vid_rfi.xml",
+      "dodge/RawFiles/Panel_sec_vtdr6130_144hz_fhd_plus_dsc_vid_rfi.xml",
+      "giulia/RawFiles/Panel_sec_vtdr6130_144hz_fhd_plus_dsc_vid_rfi.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_secondary_truly_1080p_cmd.xml",
+    "sha256": "d7ec7b7c65bb7c25719596ba79d5b2549cfc697e36e8b7b6a9db2bcd9f2be387",
+    "size": 3324,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_secondary_truly_1080p_cmd.xml",
+      "aston/RawFiles/Panel_secondary_truly_1080p_cmd.xml",
+      "b4q/RawFiles/Panel_secondary_truly_1080p_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_secondary_truly_1080p_vid.xml",
+    "sha256": "989d4ae4c77b8919a18e63c6a5aa8176a98d2316362baa0e9e5a42d21e85d0a4",
+    "size": 3779,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_secondary_truly_1080p_vid.xml",
+      "aston/RawFiles/Panel_secondary_truly_1080p_vid.xml",
+      "b4q/RawFiles/Panel_secondary_truly_1080p_vid.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_secondary_vtdr6130_144hz_fhd_plus_dsc_cmd.xml",
+    "sha256": "70ca11002dee12fba441f360b637458dac1f5f6d3ded95997580b908f99b1bf5",
+    "size": 3745,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_secondary_vtdr6130_144hz_fhd_plus_dsc_cmd.xml",
+      "aston/RawFiles/Panel_secondary_vtdr6130_144hz_fhd_plus_dsc_cmd.xml",
+      "b5q/RawFiles/Panel_secondary_vtdr6130_144hz_fhd_plus_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_secondary_vtdr6130_144hz_fhd_plus_dsc_vid.xml",
+    "sha256": "84bc6be908c832597db1c53a3b9618e5147f3d01dfc6bbd8db3968068ca87c86",
+    "size": 3350,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_secondary_vtdr6130_144hz_fhd_plus_dsc_vid.xml",
+      "aston/RawFiles/Panel_secondary_vtdr6130_144hz_fhd_plus_dsc_vid.xml",
+      "b5q/RawFiles/Panel_secondary_vtdr6130_144hz_fhd_plus_dsc_vid.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_sharp_1080p_cmd.xml",
+    "sha256": "331988253f9be67d620299ddf5227aff7928bfe6cf420d75252310e7c72bd9fa",
+    "size": 2157,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_sharp_1080p_cmd.xml",
+      "aston/RawFiles/Panel_sharp_1080p_cmd.xml",
+      "b4q/RawFiles/Panel_sharp_1080p_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_sharp_120hz_qhd_plus_dsc_cmd.xml",
+    "sha256": "551d662e5c88c7af1c743c7fb9ca5fe86305e90bcf9bb100ce54f1c5e0e81ae3",
+    "size": 5484,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_sharp_120hz_qhd_plus_dsc_cmd.xml",
+      "macan/RawFiles/Panel_sharp_120hz_qhd_plus_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_sharp_120hz_qhd_plus_dsc_vid.xml",
+    "sha256": "364dc44612f0cf7fc7de96ff817b8cc128562a13998000c166faf0dc019b466b",
+    "size": 5342,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_sharp_120hz_qhd_plus_dsc_vid.xml",
+      "macan/RawFiles/Panel_sharp_120hz_qhd_plus_dsc_vid.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_sharp_120hz_qhdpipe_plus_dsc_vid.xml",
+    "sha256": "0f3057b0e66c041729ad7ca60674bf11e17097320c537615853e0bc3d93c0c23",
+    "size": 5447,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_sharp_120hz_qhdpipe_plus_dsc_vid.xml",
+      "macan/RawFiles/Panel_sharp_120hz_qhdpipe_plus_dsc_vid.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_sharp_4k_dsc_cmd.xml",
+    "sha256": "483dd8af8403fc3f5276f72f5ac0c369edca28bda6e6c541750a25e1da94a9b4",
+    "size": 2732,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_sharp_4k_dsc_cmd.xml",
+      "macan/RawFiles/Panel_sharp_4k_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_sharp_4k_dsc_vid.xml",
+    "sha256": "bf323813902f206465df6249e9707a713130b4b03b77569a28fae6b5ea5c665d",
+    "size": 2649,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_sharp_4k_dsc_vid.xml",
+      "macan/RawFiles/Panel_sharp_4k_dsc_vid.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_truly_1080p_cmd.xml",
+    "sha256": "c9c3870f2533b5f488c12cc6568d90a2bfbd923ccd8157ca5883d21318670432",
+    "size": 3434,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_truly_1080p_cmd.xml",
+      "aston/RawFiles/Panel_truly_1080p_cmd.xml",
+      "b4q/RawFiles/Panel_truly_1080p_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_truly_1080p_vid.xml",
+    "sha256": "d7f5ef1df35f03c027cae6ecf56a61178e3c7b2a8786593f7727c3df35d666c5",
+    "size": 3904,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_truly_1080p_vid.xml",
+      "aston/RawFiles/Panel_truly_1080p_vid.xml",
+      "b4q/RawFiles/Panel_truly_1080p_vid.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_truly_wqxga_cmd_splitlink.xml",
+    "sha256": "226e0b5cb315e7685a4194d1bf37f5c56354f87a968afb669da621c4f79571f6",
+    "size": 3550,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_truly_wqxga_cmd_splitlink.xml",
+      "aston/RawFiles/Panel_truly_wqxga_cmd_splitlink.xml",
+      "b4q/RawFiles/Panel_truly_wqxga_cmd_splitlink.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_truly_wqxga_dsc_cmd.xml",
+    "sha256": "7b5aea71b696ff734c3ee423f5e606a45b4c84e473e2cef2e07f110b182b48fc",
+    "size": 3717,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_truly_wqxga_dsc_cmd.xml",
+      "aston/RawFiles/Panel_truly_wqxga_dsc_cmd.xml",
+      "b4q/RawFiles/Panel_truly_wqxga_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_truly_wqxga_dsc_vid.xml",
+    "sha256": "5a391e5d3972dc8d122903829185d039616a238ecfd8e295ef7ba2df3c4b0ced",
+    "size": 4360,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_truly_wqxga_dsc_vid.xml",
+      "aston/RawFiles/Panel_truly_wqxga_dsc_vid.xml",
+      "b4q/RawFiles/Panel_truly_wqxga_dsc_vid.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_truly_wqxga_dual_cmd.xml",
+    "sha256": "8879bd430f61dfca666d65e712203a8eb04977822e86a36665bc388f1de84a17",
+    "size": 3473,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_truly_wqxga_dual_cmd.xml",
+      "aston/RawFiles/Panel_truly_wqxga_dual_cmd.xml",
+      "b4q/RawFiles/Panel_truly_wqxga_dual_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_truly_wqxga_dual_vid.xml",
+    "sha256": "fd01b4abac0e88eb93e2edead53e4d5b610c1e574eacfd5bbba2a41e6b5fb40d",
+    "size": 3975,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_truly_wqxga_dual_vid.xml",
+      "aston/RawFiles/Panel_truly_wqxga_dual_vid.xml",
+      "b4q/RawFiles/Panel_truly_wqxga_dual_vid.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_vtdr6130_120hz_fhd_plus_dsc_cmd.xml",
+    "sha256": "b7f7f2c4c068334c2af370b35aa12ac787fe99b9b703fb1faed81d887e627c9d",
+    "size": 3704,
+    "upstream_matches": [
+      "bale_b/RawFiles/Panel_vtdr6130_120hz_fhd_plus_dsc_cmd.xml",
+      "giulia/RawFiles/Panel_vtdr6130_120hz_fhd_plus_dsc_cmd.xml",
+      "infiniti/RawFiles/Panel_vtdr6130_120hz_fhd_plus_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_vtdr6130_120hz_fhd_plus_dsc_vid.xml",
+    "sha256": "0996b49326558a3658e94ba2ebf46356f23cf99e08da62d55b64629c6e083d0a",
+    "size": 3506,
+    "upstream_matches": [
+      "infiniti/RawFiles/Panel_vtdr6130_120hz_fhd_plus_dsc_vid.xml",
+      "macan/RawFiles/Panel_vtdr6130_120hz_fhd_plus_dsc_vid.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_vtdr6130_144hz_fhd_plus_dsc_cmd.xml",
+    "sha256": "355e25b3f1da3f3657c6549328f9ded782772db54dfb18e910b99ef1f4c8f9d0",
+    "size": 3736,
+    "upstream_matches": [
+      "bale_b/RawFiles/Panel_vtdr6130_144hz_fhd_plus_dsc_cmd.xml",
+      "giulia/RawFiles/Panel_vtdr6130_144hz_fhd_plus_dsc_cmd.xml",
+      "infiniti/RawFiles/Panel_vtdr6130_144hz_fhd_plus_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_vtdr6130_144hz_fhd_plus_dsc_cmd_demura.xml",
+    "sha256": "ec58dc4cb2c64fc26b57c682918a2c82adff03e406c11ff4716d60e0c0fe63f0",
+    "size": 3944,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_vtdr6130_144hz_fhd_plus_dsc_cmd_demura.xml",
+      "bale_b/RawFiles/Panel_vtdr6130_144hz_fhd_plus_dsc_cmd_demura.xml",
+      "dodge/RawFiles/Panel_vtdr6130_144hz_fhd_plus_dsc_cmd_demura.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_vtdr6130_144hz_fhd_plus_dsc_cmd_rfi.xml",
+    "sha256": "379985dfb58e827adea3f7fdaa7013435c236d987e243338aab1494726d5cedd",
+    "size": 3783,
+    "upstream_matches": [
+      "annibale/RawFiles/Panel_vtdr6130_144hz_fhd_plus_dsc_cmd_rfi.xml",
+      "aston/RawFiles/Panel_vtdr6130_144hz_fhd_plus_dsc_cmd_rfi.xml",
+      "b5q/RawFiles/Panel_vtdr6130_144hz_fhd_plus_dsc_cmd_rfi.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_vtdr6130_144hz_fhd_plus_dsc_vid.xml",
+    "sha256": "20c763f08296db84b457997a1a1c438e43ff83c300714d1700af729aa32ef021",
+    "size": 3585,
+    "upstream_matches": [
+      "aston/RawFiles/Panel_vtdr6130_144hz_fhd_plus_dsc_vid.xml",
+      "b5q/RawFiles/Panel_vtdr6130_144hz_fhd_plus_dsc_vid.xml",
+      "dm2q/RawFiles/Panel_vtdr6130_144hz_fhd_plus_dsc_vid.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_vtdr6130_60hz_fhd_plus_dsc_cmd.xml",
+    "sha256": "b382ac340e5850421cd902ab5b15e4276ccfe2a20b3c6a40810b5dacd85245cb",
+    "size": 3704,
+    "upstream_matches": [
+      "aston/RawFiles/Panel_vtdr6130_60hz_fhd_plus_dsc_cmd.xml",
+      "b5q/RawFiles/Panel_vtdr6130_60hz_fhd_plus_dsc_cmd.xml",
+      "bale_b/RawFiles/Panel_vtdr6130_60hz_fhd_plus_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/Panel_vtdr6130_60hz_fhd_plus_dsc_vid.xml",
+    "sha256": "0fe97de4fe0390bb07b63ad412fc9be810ce39fcc20c67174bbf73fb3899df41",
+    "size": 3506,
+    "upstream_matches": [
+      "aston/RawFiles/Panel_vtdr6130_60hz_fhd_plus_dsc_vid.xml",
+      "b5q/RawFiles/Panel_vtdr6130_60hz_fhd_plus_dsc_vid.xml",
+      "dm2q/RawFiles/Panel_vtdr6130_60hz_fhd_plus_dsc_vid.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/SecParti.cfg",
+    "sha256": "6970a330bd67203e7d6c05046ad5bf2f2f5e15cb239bfbbe0f33a556339d1c5e",
+    "size": 4984,
+    "upstream_matches": [
+      "annibale/RawFiles/SecParti.cfg",
+      "bale_b/RawFiles/SecParti.cfg",
+      "dodge/RawFiles/SecParti.cfg"
+    ]
+  },
+  {
+    "path": "RawFiles/logo1.bmp",
+    "sha256": "d1dd9e5d98208b36ebe9f59a871445d3e2afe69bed610ce073218cb2b5a8ec5e",
+    "size": 48426,
+    "upstream_matches": [
+      "annibale/RawFiles/logo1.bmp",
+      "aston/RawFiles/logo1.bmp",
+      "b5q/RawFiles/logo1.bmp"
+    ]
+  },
+  {
+    "path": "RawFiles/sprconfig_dsi_panel_AA601_P_7_A0020_dsc_cmd.xml",
+    "sha256": "fb5ace3451251ff05c51f1a2f083357f3cd8a37ae5ae23dc51ceaec43379cd23",
+    "size": 605,
+    "upstream_matches": [
+      "dodge/RawFiles/sprconfig_dsi_panel_AA594_P_7_A0020_dsc_cmd.xml",
+      "infiniti/RawFiles/sprconfig_dsi_panel_AA601_P_7_A0020_dsc_cmd.xml",
+      "pagani/RawFiles/sprconfig_dsi_panel_AA594_P_7_A0020_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/sprconfig_dsi_panel_AC306_S_3_A0020_dsc_cmd.xml",
+    "sha256": "347bacb834d66b810b749cdf5abcc2eca8a6665fff033fa8816cc4228e9315ee",
+    "size": 588,
+    "upstream_matches": [
+      "dodge/RawFiles/sprconfig_dsi_panel_AC140_S_3_A0014_dsc_cmd.xml",
+      "infiniti/RawFiles/sprconfig_dsi_panel_AC306_S_3_A0020_dsc_cmd.xml",
+      "pagani/RawFiles/sprconfig_dsi_panel_AC140_S_3_A0014_dsc_cmd.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/sprconfig_dsi_panel_AD296_P_3_A0020_dsc_cmd.xml",
+    "sha256": "b148eb63a2518a928a1fc80ce8265c2adc405424f4b64c480fe1afda1f428d7d",
+    "size": 605,
+    "upstream_matches": [
+      "infiniti/RawFiles/sprconfig_dsi_panel_AD296_P_3_A0020_dsc_cmd.xml",
+      "infiniti/RawFiles/sprconfig_dsi_panel_AD296_P_3_A0020_dsc_cmd_evt.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/sprconfig_dsi_panel_AD296_P_3_A0020_dsc_cmd_evt.xml",
+    "sha256": "b148eb63a2518a928a1fc80ce8265c2adc405424f4b64c480fe1afda1f428d7d",
+    "size": 605,
+    "upstream_matches": [
+      "infiniti/RawFiles/sprconfig_dsi_panel_AD296_P_3_A0020_dsc_cmd.xml",
+      "infiniti/RawFiles/sprconfig_dsi_panel_AD296_P_3_A0020_dsc_cmd_evt.xml"
+    ]
+  },
+  {
+    "path": "RawFiles/uefipil.cfg",
+    "sha256": "2b5cb6245f36fe09eebd50d119c6ab54416f33649cae47f252e0fc365d425b28",
+    "size": 394,
+    "upstream_matches": [
+      "annibale/RawFiles/uefipil.cfg",
+      "dodge/RawFiles/uefipil.cfg",
+      "infiniti/RawFiles/uefipil.cfg"
+    ]
+  },
+  {
+    "path": "RawFiles/uefiplat.cfg",
+    "sha256": "1f9bed5297317fe383c60adf35d4969becb4c79ea7bc0838852107a6dfa8ada9",
+    "size": 501,
+    "upstream_matches": [
+      "annibale/RawFiles/uefiplat.cfg",
+      "dodge/RawFiles/uefiplat.cfg",
+      "infiniti/RawFiles/uefiplat.cfg"
+    ]
+  }
+]

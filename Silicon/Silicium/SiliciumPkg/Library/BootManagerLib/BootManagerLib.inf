@@ -27,6 +27,8 @@
 [LibraryClasses]
   PcdLib
   DebugLib
+  BaseMemoryLib
+  DxeServicesLib
   AcpiTableUpdateLib
   DeviceBootManagerLib
   UefiRuntimeServicesTableLib
@@ -37,9 +39,11 @@
   BootGraphicsLib
   DevicePathLib
   PrintLib
+  UefiLib
 
 [Pcd]
   gEfiMdePkgTokenSpaceGuid.PcdPlatformBootTimeOut
+  gSiliciumPkgTokenSpaceGuid.PcdPreBootProbeFile
 
 [Guids]
   gEfiEndOfDxeEventGroupGuid

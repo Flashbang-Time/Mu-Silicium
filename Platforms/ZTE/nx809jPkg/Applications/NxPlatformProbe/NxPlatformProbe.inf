@@ -1,0 +1,29 @@
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = NxPlatformProbe
+  FILE_GUID                      = 1BC9A152-6724-4D7B-8648-B7E791F9D809
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = NxPlatformProbeMain
+
+[Sources]
+  NxPlatformProbe.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  BaseMemoryLib
+  DevicePathLib
+  MemoryAllocationLib
+  UefiApplicationEntryPoint
+  UefiBootServicesTableLib
+  UefiLib
+
+[Protocols]
+  gEfiBlockIoProtocolGuid
+  gEfiGraphicsOutputProtocolGuid
+  gEfiPartitionInfoProtocolGuid
+  gEfiSimpleFileSystemProtocolGuid
+  gEfiUsb2HcProtocolGuid
+  gEfiUsbIoProtocolGuid

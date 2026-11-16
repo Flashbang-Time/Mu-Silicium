@@ -1,0 +1,24 @@
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = NxTouchProbe
+  FILE_GUID                      = 1358C26E-CAD7-4644-8E57-542D95A07602
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = NxTouchProbeMain
+
+[Sources]
+  NxTouchProbe.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  QcomPkg/QcomPkg.dec
+
+[LibraryClasses]
+  BaseLib
+  IoLib
+  UefiApplicationEntryPoint
+  UefiBootServicesTableLib
+  UefiLib
+
+[Protocols]
+  gEfiClockProtocolGuid

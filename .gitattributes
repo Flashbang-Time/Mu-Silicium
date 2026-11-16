@@ -1,0 +1,3 @@
+
+# Patch context lines intentionally retain their leading space.
+Tools/nx809j/*.patch whitespace=-blank-at-eol

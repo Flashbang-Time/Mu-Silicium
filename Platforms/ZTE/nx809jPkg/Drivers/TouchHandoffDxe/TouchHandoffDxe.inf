@@ -1,0 +1,32 @@
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = TouchHandoffDxe
+  FILE_GUID                      = 783E4B51-8460-45F8-B214-B618D0C9A809
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = TouchHandoffEntryPoint
+
+[Sources]
+  TouchHandoff.c
+  TouchHardware.h
+
+[Packages]
+  MdePkg/MdePkg.dec
+  QcomPkg/QcomPkg.dec
+
+[LibraryClasses]
+  BaseLib
+  DebugLib
+  IoLib
+  UefiBootServicesTableLib
+  UefiDriverEntryPoint
+
+[Protocols]
+  gEfiClockProtocolGuid
+
+[Guids]
+  gEfiEventExitBootServicesGuid
+  gEfiEventReadyToBootGuid
+
+[Depex]
+  gEfiClockProtocolGuid

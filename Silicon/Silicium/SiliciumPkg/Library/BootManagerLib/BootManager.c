@@ -7,6 +7,8 @@
 
 #include <Library/PcdLib.h>
 #include <Library/DebugLib.h>
+#include <Library/BaseMemoryLib.h>
+#include <Library/DxeServicesLib.h>
 #include <Library/AcpiTableUpdateLib.h>
 #include <Library/DeviceBootManagerLib.h>
 #include <Library/PlatformBootManagerLib.h>
@@ -18,6 +20,7 @@
 #include <Library/BootGraphicsLib.h>
 #include <Library/BootGraphics.h>
 #include <Library/PrintLib.h>
+#include <Library/UefiLib.h>
 
 #include <Configuration/BootDevices.h>
 
@@ -33,6 +36,8 @@ STATIC UINTN YPos = 0;
 // BDS Combo Message
 //
 STATIC CONST CHAR8 *ComboMessage = "[Volume Up] Boot Manager";
+
+STATIC VOID RunPreBootProbe (VOID);
 
 VOID
 EFIAPI
@@ -125,6 +130,7 @@ PlatformBootManagerAfterConsole ()
 
   // Execute Secondary After Console
   DeviceBootManagerAfterConsole ();
+  RunPreBootProbe ();
 }
 
 VOID
@@ -140,6 +146,46 @@ EFIAPI
 PlatformBootManagerProcessBootCompletion (OUT EFI_BOOT_MANAGER_LOAD_OPTION *BootOption)
 {
   return;
+}
+
+STATIC
+VOID
+RunPreBootProbe (
+  VOID
+  )
+{
+  EFI_GUID                 ProbeFile;
+  EFI_STATUS               Status;
+  EFI_HANDLE               Image;
+  EFI_DEVICE_PATH_PROTOCOL *Path;
+
+  CopyMem (&ProbeFile, PcdGetPtr (PcdPreBootProbeFile), sizeof (ProbeFile));
+  if (IsZeroGuid (&ProbeFile)) {
+    return;
+  }
+
+  // Run at the BDS application TPL, where synchronous Block I/O is legal.
+  Print (L"Connecting devices for platform initialization...\n");
+  EfiBootManagerConnectAll ();
+  if (gST->ConOut != NULL) {
+    gST->ConOut->ClearScreen (gST->ConOut);
+  }
+
+  Status = GetFileDevicePathFromAnyFv (&ProbeFile, EFI_SECTION_PE32, 0, &Path);
+  if (!EFI_ERROR (Status)) {
+    Status = gBS->LoadImage (FALSE, gImageHandle, Path, NULL, 0, &Image);
+    FreePool (Path);
+    if (!EFI_ERROR (Status)) {
+      Status = gBS->StartImage (Image, NULL, NULL);
+    }
+  }
+
+  if (EFI_ERROR (Status)) {
+    Print (L"Pre-boot probe failed: %r\n", Status);
+  }
+
+  Print (L"Platform initialization complete. Boot continues.\n");
+  gBS->Stall (2000000);
 }
 
 VOID
