@@ -872,6 +872,8 @@
 
 ## RedMagic 11 Pro
 
+<img align="right" src="Resources/Pictures/OnePlus-15R.png" width="400" alt="Preview">
+
 **State:** Experimental <br>
 **Codename:** nx809j
 
@@ -883,10 +885,10 @@
 |:--------------------|:--------------------------|:----:|
 | Display              |                            | ✅     |
 | Internal Storage     |                            | ✅    |
-| Side Buttons         | Not fully validated        | ❌     |
-| USB Host Mode        | Unverified in UEFI         | ❔     |
+| Side Buttons         |                            | ❔      |
+| USB Host Mode        |                            | ❔     |
 | USB Device Mode      |                            | ❌     |
-| USB Power Delivery   | OTG power observed only    | ❌     |
+| USB Power Delivery   |                            | ❌     |
 | Mass Storage         |                            | ❌     |
 | Windows Boot         | WinPE with guarded AMU fix | ✅     |
 | Linux Boot           |                            | ❌    |
@@ -900,7 +902,7 @@
 
 | Feature              | Description                     | State |
 |:--------------------|:-------------------------------|:----:|
-| Internal Storage     | 1 TB UFS detected; I/O unverified | ❔     |
+| Internal Storage     | I/O unverified                  | ❔     |
 | Side Buttons         |                                 | ❌     |
 | Proximity Sensor     |                                 | ❌     |
 | Light Sensor         |                                 | ❌     |
