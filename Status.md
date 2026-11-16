@@ -874,7 +874,7 @@
 
 <img align="right" src="Resources/Pictures/Redmagic-11-Pro.png" width="400" alt="Preview">
 
-**State:** Experimental <br>
+**State:** Active <br>
 **Codename:** nubia-qwjujube
 
 **Contributors:** [Flashbang-Time](https://github.com/Flashbang-Time)
