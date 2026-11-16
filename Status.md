@@ -870,22 +870,73 @@
 <details>
 <summary><b><strong>Nubia / RedMagic Devices</strong></b></summary>
 
-## RedMagic 11 Pro (NX809J)
+## RedMagic 11 Pro
 
-**State:** Experimental, active bring-up <br>
-**Codename:** qwjujube <br>
-**Maintainer:** [Flashbang-Time](https://github.com/Flashbang-Time)
+**State:** Experimental <br>
+**Codename:** nx809j
 
-| Feature | Observed state |
-|:---|:---|
-| UEFI display | Working framebuffer |
-| UEFI storage | Partitions enumerated; Windows storage not established |
-| Windows boot | Windows 11 ARM64 PE reached a command prompt with the guarded AMU workaround |
-| Touch | Experimental driver; latest captured failure is signature enforcement |
-| USB host | Controller/hub errors; power alone does not establish data support |
-| GPU, audio, radio, power management | Unverified |
+**Contributors:** [Flashbang-Time](https://github.com/Flashbang-Time)
 
-See [platform notes](Platforms/ZTE/nx809jPkg/README.md) and [touch driver source](https://github.com/Flashbang-Time/nx809j-touch-driver). The upstream-refreshed rebuild needs a new hardware test.
+### UEFI Status
+
+| Feature              | Description                | State |
+|:--------------------|:--------------------------|:----:|
+| Display              |                            | ✅     |
+| Internal Storage     | Partitions enumerated      | ⚠️    |
+| Side Buttons         | Not fully validated        | ❔     |
+| USB Host Mode        | Unverified in UEFI         | ❔     |
+| USB Device Mode      |                            | ❔     |
+| USB Power Delivery   | OTG power observed only    | ❔     |
+| Mass Storage         |                            | ❔     |
+| Windows Boot         | WinPE with guarded AMU fix | ✅     |
+| Linux Boot           |                            | ❔     |
+
+<table>
+<tr><th>Windows</th></tr>
+<tr><td>
+
+> [!IMPORTANT]
+> Only the tested Windows 11 ARM64 PE kernel is supported by the guarded AMU workaround. A full Windows installation is not validated.
+
+> [!NOTE]
+> The model is NX809J, hardware codename `qwjujube`. Build requirements and local firmware asset preparation are documented [here](Platforms/ZTE/nx809jPkg/README.md). The refreshed build still requires hardware testing.
+
+> [!NOTE]
+> The experimental touchscreen driver source can be found [here](https://github.com/Flashbang-Time/nx809j-touch-driver). The latest captured failure is signature enforcement; successful touch after the BCD correction is not confirmed.
+
+| Feature              | Description                     | State |
+|:--------------------|:-------------------------------|:----:|
+| Internal Storage     | Not established in Windows      | ❔     |
+| Side Buttons         |                                 | ❔     |
+| Proximity Sensor     |                                 | ❔     |
+| Light Sensor         |                                 | ❔     |
+| Accelerometer Sensor |                                 | ❔     |
+| Compass Sensor       |                                 | ❔     |
+| Gyroscope Sensor     |                                 | ❔     |
+| Fingerprint Sensor   |                                 | ❔     |
+| NFC Sensor           |                                 | ❔     |
+| Temperature Sensor   |                                 | ❔     |
+| Battery              |                                 | ❔     |
+| USB Host Mode        | Controller / hub errors         | ❌     |
+| USB Device Mode      |                                 | ❔     |
+| USB Power Delivery   | OTG power alone is insufficient | ❔     |
+| Charging             |                                 | ❔     |
+| WLAN                 |                                 | ❔     |
+| CPU                  | PE boots; SMP unverified        | ⚠️    |
+| Touchscreen          | Code 52; test-signing pending   | ❌     |
+| Bluetooth            |                                 | ❔     |
+| GPS                  |                                 | ❔     |
+| Speakers             |                                 | ❔     |
+| Microphone           |                                 | ❔     |
+| GPU                  | Acceleration unverified         | ❔     |
+| Camera               |                                 | ❔     |
+| Flashlight           |                                 | ❔     |
+| Mobile Data          |                                 | ❔     |
+| Display              | Only framebuffer                | ⚠️    |
+| Vibration            |                                 | ❔     |
+
+</td></tr>
+</table>
 
 </details>
 
