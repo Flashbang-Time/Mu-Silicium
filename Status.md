@@ -895,14 +895,8 @@
 <tr><th>Windows</th></tr>
 <tr><td>
 
-> [!IMPORTANT]
-> Only the tested Windows 11 ARM64 PE kernel is supported by the guarded AMU workaround. A full Windows installation is not validated.
-
 > [!NOTE]
-> The model is NX809J, hardware codename `qwjujube`. Build requirements and local firmware asset preparation are documented [here](Platforms/ZTE/nx809jPkg/README.md). The refreshed build still requires hardware testing.
-
-> [!NOTE]
-> The experimental touchscreen driver source can be found [here](https://github.com/Flashbang-Time/nx809j-touch-driver). The latest captured failure is signature enforcement; successful touch after the BCD correction is not confirmed.
+> The experimental touchscreen driver source can be found [here](https://github.com/Flashbang-Time/nx809j-touch-driver). 
 
 | Feature              | Description                     | State |
 |:--------------------|:-------------------------------|:----:|
@@ -919,11 +913,11 @@
 | Battery              |                                 | ❌     |
 | USB Host Mode        | Controller / hub errors         | ❌     |
 | USB Device Mode      |                                 | ❌     |
-| USB Power Delivery   | OTG power alone is insufficient | ❌     |
+| USB Power Delivery   |                                 | ❌     |
 | Charging             |                                 | ❌     |
 | WLAN                 |                                 | ❌     |
-| CPU                  | PE boots; SMP unverified        | ⚠️    |
-| Touchscreen          | Code 52; test-signing pending   | ❔     |
+| CPU                  | SMP unverified                  | ⚠️    |
+| Touchscreen          | Code 52; WIP                    | ❌    |
 | Bluetooth            |                                 | ❌     |
 | GPS                  |                                 | ❌     |
 | Speakers             |                                 | ❌     |
