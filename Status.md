@@ -919,7 +919,7 @@
 | Charging             |                                 | ❌     |
 | WLAN                 |                                 | ❌     |
 | CPU                  | SMP unverified                  | ⚠️    |
-| Touchscreen          | Code 52; WIP                    | ❌    |
+| Touchscreen          | Code 10; WIP                    | ❌    |
 | Bluetooth            |                                 | ❌     |
 | GPS                  |                                 | ❌     |
 | Speakers             |                                 | ❌     |
