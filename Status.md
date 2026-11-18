@@ -868,7 +868,7 @@
 </details>
 
 <details>
-<summary><b><strong>Nubia / RedMagic Devices</strong></b></summary>
+<summary><b><strong>RedMagic Devices</strong></b></summary>
 
 ## RedMagic 11 Pro
 
