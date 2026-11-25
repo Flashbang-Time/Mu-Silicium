@@ -902,7 +902,7 @@
 
 | Feature              | Description                     | State |
 |:--------------------|:-------------------------------|:----:|
-| Internal Storage     | I/O unverified                  | ❔     |
+| Internal Storage     |                                | ✅     |
 | Side Buttons         |                                 | ❌     |
 | Proximity Sensor     |                                 | ❌     |
 | Light Sensor         |                                 | ❌     |
@@ -918,7 +918,7 @@
 | USB Power Delivery   |                                 | ❌     |
 | Charging             |                                 | ❌     |
 | WLAN                 |                                 | ❌     |
-| CPU                  | SMP unverified                  | ⚠️    |
+| CPU                  |                                 | ✅    |
 | Touchscreen          | Code 10; WIP                    | ❌    |
 | Bluetooth            |                                 | ❌     |
 | GPS                  |                                 | ❌     |
